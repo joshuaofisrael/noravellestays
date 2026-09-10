@@ -20,16 +20,26 @@
   "@graph": [
     {
       "@type": "Organization",
+      "@id": "https://noravellestays.com/#organization",
       "name": "Noravelle Stays",
       "url": "https://noravellestays.com/",
       "legalName": "Joshua Israel Ventures LLC",
-      "description": "Luxury and boutique US stay guidance with soft affiliate comparison CTAs. Not a merchant of record."
+      "email": "joshuaofisrael@gmail.com",
+      "description": "Luxury and boutique US stay guidance with soft affiliate comparison CTAs. Not a merchant of record.",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "email": "joshuaofisrael@gmail.com",
+        "url": "https://noravellestays.com/contact/"
+      }
     },
     {
       "@type": "WebSite",
+      "@id": "https://noravellestays.com/#website",
       "name": "Noravelle Stays",
       "url": "https://noravellestays.com/",
-      "publisher": {"@type": "Organization", "name": "Joshua Israel Ventures LLC"}
+      "publisher": {"@id": "https://noravellestays.com/#organization"},
+      "inLanguage": "en-US"
     }
   ]
 }
@@ -46,6 +56,7 @@
           <li><a href="/destinations/us/nashville/">Destinations</a></li>
           <li><a href="/hotels/nashville/">Hotels</a></li>
           <li><a href="/guides/where-to-stay-in-nashville/">Guides</a></li>
+          <li><a href="/resources/">Resources</a></li>
           <li><a href="/flights/to/nashville/">Flights</a></li>
           <li><a href="/how-pricing-works/">Pricing</a></li>
           <li><a href="/about/">About</a></li>
@@ -138,6 +149,26 @@
         <p>Check live fares on partner flight search sites. Noravelle Stays does not sell tickets or collect payment.</p>
         <a class="btn btn-outline" data-affiliate="flights" href="#">Compare flights on partner sites</a>
         <p class="affiliate-note">Flight links may be affiliate (e.g. Travelpayouts / Kayak-class networks when live). Flight commissions are often thinner than hotel affiliates. See our <a href="/affiliate-disclosure/">Affiliate Disclosure</a>.</p>
+      </div>
+
+
+      <p class="section-label" style="margin-top:2rem;">Research &amp; planning</p>
+      <div class="card-grid">
+        <article class="card">
+          <h3>US luxury hotel trends 2026</h3>
+          <p>Original brief with citations to U.S. Travel Association, NTTO, BEA, CoStar/STR, and city tourism boards.</p>
+          <a class="card-link" href="/resources/us-luxury-hotel-trends/">Read the trends brief →</a>
+        </article>
+        <article class="card">
+          <h3>Resources hub</h3>
+          <p>Planning checklist plus links to Miami, Nashville, and Charleston luxury guides.</p>
+          <a class="card-link" href="/resources/">Browse resources →</a>
+        </article>
+        <article class="card">
+          <h3>How pricing works</h3>
+          <p>Affiliate referral vs. merchant of record — honest fees context, no false undercut claims.</p>
+          <a class="card-link" href="/how-pricing-works/">Read pricing explainer →</a>
+        </article>
       </div>
 
       <p class="section-label" style="margin-top:2rem;">Popular luxury guides</p>

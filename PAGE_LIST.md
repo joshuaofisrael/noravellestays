@@ -51,6 +51,8 @@ Every URL path created for the static site (`noravellestays.com`):
 - `/hotels/savannah/`
 - `/hotels/tampa/`
 - `/how-pricing-works/`
+- `/resources/`
+- `/resources/us-luxury-hotel-trends/`
 - `/privacy/`
 - `/terms/`
 
@@ -64,7 +66,7 @@ Every URL path created for the static site (`noravellestays.com`):
 - `/README.md`
 - `/PAGE_LIST.md`
 
-**Total HTML routes:** 49
+**Total HTML routes:** 51
 
 **Brand:** Noravelle Stays · Joshua Israel Ventures LLC · Contact subject `[Contact: Noravelle Stays]`
 

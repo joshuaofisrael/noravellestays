@@ -59,3 +59,13 @@ Netlify drag-and-drop or GitHub Pages from site root (where `index.html` lives).
 - Boutique / high-ticket framing — not cheap hotels
 - Do not claim we currently undercut Expedia’s hotel take
 - Honest fee/affiliate claims on how-pricing-works and affiliate disclosure
+
+## SEO (white-hat foundation)
+
+Steady compounding — quality over volume. Do **not** buy links, spam directories, or mass-publish thin pages.
+
+- **Linkable assets:** `/resources/` hub and `/resources/us-luxury-hotel-trends/` (original analysis + checklist; outbound citations to tourism boards / industry research only when URLs are verified).
+- **Schema:** Organization + WebSite on homepage; Article / BreadcrumbList / FAQPage on key guides and the trends brief; TouristDestination only as `about` where editorial, never inventing false Hotel entities.
+- **Internal linking:** Resources ↔ top destination/hotel/guide/flight/pricing/contact pages.
+- **Ops notes & weekly cadence:** see `ops/SEO_PUSH_NOTES.md` (aim ~3–5 quality pages or deep upgrades per week).
+- Contact form subject remains `[Contact: Noravelle Stays]` → `joshuaofisrael@gmail.com`; LLC ownership in footers; soft Compare CTAs; `NORAVELLE_AFFILIATES` stay `#` until approved; no false Expedia undercut claims.
