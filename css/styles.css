@@ -448,25 +448,47 @@ textarea { min-height: 140px; resize: vertical; }
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 1.1rem 1.15rem;
+  padding: 0 0 1.1rem;
   box-shadow: var(--shadow);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
-.pick-card h3 { margin: 0 0 0.25rem; font-size: 1.05rem; color: var(--navy); }
-
-.pick-card { overflow: hidden; padding-top: 0; }
-.pick-card .pick-photo-link { display: block; margin: 0 -1.15rem 0.85rem; }
-.pick-photo {
+.pick-card .pick-photo-link {
+  display: block;
+  line-height: 0;
+  text-decoration: none;
+}
+.pick-card .pick-photo {
   width: 100%;
-  height: auto;
-  aspect-ratio: 16 / 10;
+  height: 200px;
   object-fit: cover;
   display: block;
-  border-bottom: 1px solid var(--border);
+  border-radius: 0;
 }
-.pick-card h3 a { color: inherit; text-decoration: none; }
-.pick-card h3 a:hover { color: var(--brand); text-decoration: underline; }
+.pick-card h3,
+.pick-card .pick-hood,
+.pick-card > p:not(.pick-actions):not(.pick-hood),
+.pick-card .pick-actions {
+  padding-left: 1.15rem;
+  padding-right: 1.15rem;
+}
+.pick-card h3 {
+  margin: 0.9rem 0 0.25rem;
+  font-size: 1.05rem;
+  color: var(--navy);
+}
+.pick-card h3 a {
+  color: var(--navy);
+  text-decoration: none;
+}
+.pick-card h3 a:hover {
+  color: var(--brand);
+  text-decoration: underline;
+}
 .pick-hood { margin: 0 0 0.5rem; color: var(--brand); font-size: 0.88rem; font-weight: 600; }
 .pick-actions { margin: 0.85rem 0 0; }
+.pick-actions .btn { display: inline-block; }
 .curated-list { font-size: 0.95rem; color: var(--muted); }
 .btn.is-disabled, span.btn.is-disabled {
   opacity: 0.65;
