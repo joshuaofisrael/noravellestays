@@ -2,6 +2,9 @@ _expand_luxury.py
 _generate.py
 _generate_content.py
 _patch_flights.py
+_lux_finalize.py
+_luxury_report.txt
+_new_paths.txt
 namecheap*.png
 preview-*.png
 *.pyc
