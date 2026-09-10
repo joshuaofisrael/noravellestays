@@ -452,6 +452,19 @@ textarea { min-height: 140px; resize: vertical; }
   box-shadow: var(--shadow);
 }
 .pick-card h3 { margin: 0 0 0.25rem; font-size: 1.05rem; color: var(--navy); }
+
+.pick-card { overflow: hidden; padding-top: 0; }
+.pick-card .pick-photo-link { display: block; margin: 0 -1.15rem 0.85rem; }
+.pick-photo {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  display: block;
+  border-bottom: 1px solid var(--border);
+}
+.pick-card h3 a { color: inherit; text-decoration: none; }
+.pick-card h3 a:hover { color: var(--brand); text-decoration: underline; }
 .pick-hood { margin: 0 0 0.5rem; color: var(--brand); font-size: 0.88rem; font-weight: 600; }
 .pick-actions { margin: 0.85rem 0 0; }
 .curated-list { font-size: 0.95rem; color: var(--muted); }
