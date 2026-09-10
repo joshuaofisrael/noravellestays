@@ -120,7 +120,7 @@ main { min-height: 55vh; }
   font-size: clamp(1.85rem, 4vw, 2.6rem);
   line-height: 1.2;
   letter-spacing: -0.03em;
-  max-width: 20ch;
+  max-width: 28ch;
 }
 .hero p {
   margin: 0 0 1.25rem;
@@ -433,3 +433,47 @@ textarea { min-height: 140px; resize: vertical; }
   font-weight: 700;
 }
 .nav-resources a { font-weight: 650; }
+
+
+/* Noravelle picks + day plans */
+.noravelle-picks { margin: 2rem 0; }
+.picks-note { background: var(--sand); border: 1px solid var(--border); border-radius: var(--radius); padding: 0.9rem 1rem; font-size: 0.95rem; }
+.pick-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.pick-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.1rem 1.15rem;
+  box-shadow: var(--shadow);
+}
+.pick-card h3 { margin: 0 0 0.25rem; font-size: 1.05rem; color: var(--navy); }
+.pick-hood { margin: 0 0 0.5rem; color: var(--brand); font-size: 0.88rem; font-weight: 600; }
+.pick-actions { margin: 0.85rem 0 0; }
+.curated-list { font-size: 0.95rem; color: var(--muted); }
+.btn.is-disabled, span.btn.is-disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+  pointer-events: none;
+  display: inline-block;
+}
+.dayplan-hero { margin: 1rem 0 1.5rem; }
+.dayplan-hero img {
+  width: 100%;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  display: block;
+}
+.dayplan-hero figcaption { font-size: 0.85rem; color: var(--muted); margin-top: 0.4rem; }
+.dayplan-grid .card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+.site-nav ul { flex-wrap: wrap; }

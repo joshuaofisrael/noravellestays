@@ -1,6 +1,6 @@
 # Noravelle Stays — page list
 
-Every URL path created for the static site (`noravellestays.com`):
+Every URL path for the static site (`noravellestays.com`):
 
 ## HTML routes
 
@@ -9,6 +9,14 @@ Every URL path created for the static site (`noravellestays.com`):
 - `/affiliate-disclosure/`
 - `/contact/`
 - `/contact/thanks/`
+- `/day-plans/`
+- `/day-plans/austin-south-congress-day/`
+- `/day-plans/charleston-historic-day/`
+- `/day-plans/miami-beach-luxury-day/`
+- `/day-plans/nashville-evening-luxury/`
+- `/day-plans/new-orleans-garden-district-day/`
+- `/destinations/`
+- `/destinations/us/`
 - `/destinations/us/austin/`
 - `/destinations/us/charleston/`
 - `/destinations/us/denver/`
@@ -24,6 +32,7 @@ Every URL path created for the static site (`noravellestays.com`):
 - `/flights/to/miami/`
 - `/flights/to/nashville/`
 - `/flights/to/new-orleans/`
+- `/guides/`
 - `/guides/austin-weekend-trip/`
 - `/guides/charleston-weekend-trip/`
 - `/guides/denver-weekend-trip/`
@@ -34,6 +43,7 @@ Every URL path created for the static site (`noravellestays.com`):
 - `/guides/where-to-stay-in-miami/`
 - `/guides/where-to-stay-in-nashville/`
 - `/guides/where-to-stay-in-new-orleans/`
+- `/hotels/`
 - `/hotels/austin/`
 - `/hotels/charleston/`
 - `/hotels/columbus/`
@@ -51,9 +61,9 @@ Every URL path created for the static site (`noravellestays.com`):
 - `/hotels/savannah/`
 - `/hotels/tampa/`
 - `/how-pricing-works/`
+- `/privacy/`
 - `/resources/`
 - `/resources/us-luxury-hotel-trends/`
-- `/privacy/`
 - `/terms/`
 
 ## Assets / meta
@@ -61,13 +71,17 @@ Every URL path created for the static site (`noravellestays.com`):
 - `/css/styles.css`
 - `/js/main.js`
 - `/js/affiliates.js`
+- `/images/dayplans/` (original illustrations)
 - `/robots.txt`
 - `/sitemap.xml`
 - `/README.md`
 - `/PAGE_LIST.md`
+- `/ops/LEGAL_CONTENT_NOTES.md`
+- `/ops/SEO_PUSH_NOTES.md`
+- `/ops/REVENUE_GATE.md`
 
-**Total HTML routes:** 51
+**Total HTML routes:** 61
 
 **Brand:** Noravelle Stays · Joshua Israel Ventures LLC · Contact subject `[Contact: Noravelle Stays]`
 
-**Positioning:** Boutique / luxury / design hotels / high-ticket US stays — soft Compare CTAs only; `NORAVELLE_AFFILIATES` placeholders; no false Expedia undercut claims; LLC in footer.
+**Positioning:** Curated luxury/boutique US stay guides + day plans; named hotel picks with official-site links; optional affiliate compare later (disclosed); no merchant of record; no hotel endorsement claims.
