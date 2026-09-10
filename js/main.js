@@ -31,3 +31,15 @@
     applyAffiliates();
   }
 })();
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('[data-noravelle-random-city]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var cities = window.NORAVELLE_CITIES || [];
+      if (!cities.length) return;
+      var pick = cities[Math.floor(Math.random() * cities.length)];
+      window.location.href = pick.path;
+    });
+  });
+});
