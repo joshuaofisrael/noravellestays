@@ -36,6 +36,7 @@ Every URL path for the static site (`noravellestays.com`):
 - `/guides/austin-weekend-trip/`
 - `/guides/charleston-weekend-trip/`
 - `/guides/denver-weekend-trip/`
+- `/guides/how-we-pick-luxury-hotels/`
 - `/guides/nashville-weekend-trip/`
 - `/guides/savannah-weekend-trip/`
 - `/guides/where-to-stay-in-austin/`
@@ -80,7 +81,7 @@ Every URL path for the static site (`noravellestays.com`):
 - `/ops/SEO_PUSH_NOTES.md`
 - `/ops/REVENUE_GATE.md`
 
-**Total HTML routes:** 61
+**Total HTML routes:** 62
 
 **Brand:** Noravelle Stays · Joshua Israel Ventures LLC · Contact subject `[Contact: Noravelle Stays]`
 

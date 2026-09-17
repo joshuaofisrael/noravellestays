@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://noravellestays.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://noravellestays.com/</loc><lastmod>2026-09-17</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://noravellestays.com/about/</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://noravellestays.com/affiliate-disclosure/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://noravellestays.com/contact/</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
@@ -28,7 +28,8 @@
   <url><loc>https://noravellestays.com/flights/to/miami/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://noravellestays.com/flights/to/nashville/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://noravellestays.com/flights/to/new-orleans/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://noravellestays.com/guides/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://noravellestays.com/guides/</loc><lastmod>2026-09-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://noravellestays.com/guides/how-we-pick-luxury-hotels/</loc><lastmod>2026-09-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/guides/austin-weekend-trip/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/guides/charleston-weekend-trip/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/guides/denver-weekend-trip/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -39,26 +40,26 @@
   <url><loc>https://noravellestays.com/guides/where-to-stay-in-miami/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/guides/where-to-stay-in-nashville/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/guides/where-to-stay-in-new-orleans/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://noravellestays.com/hotels/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://noravellestays.com/hotels/</loc><lastmod>2026-09-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/hotels/austin/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://noravellestays.com/hotels/charleston/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://noravellestays.com/hotels/columbus/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://noravellestays.com/hotels/denver/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://noravellestays.com/hotels/charleston/</loc><lastmod>2026-09-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://noravellestays.com/hotels/columbus/</loc><lastmod>2026-09-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://noravellestays.com/hotels/denver/</loc><lastmod>2026-09-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/hotels/jacksonville/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://noravellestays.com/hotels/kansas-city/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://noravellestays.com/hotels/miami/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://noravellestays.com/hotels/kansas-city/</loc><lastmod>2026-09-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://noravellestays.com/hotels/miami/</loc><lastmod>2026-09-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/hotels/nashville/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/hotels/near/austin-airport/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/hotels/near/miami-airport/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/hotels/near/nashville-airport/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://noravellestays.com/hotels/new-orleans/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://noravellestays.com/hotels/new-orleans/</loc><lastmod>2026-09-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/hotels/raleigh/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/hotels/san-antonio/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/hotels/savannah/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/hotels/tampa/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/how-pricing-works/</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://noravellestays.com/privacy/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://noravellestays.com/resources/</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://noravellestays.com/resources/</loc><lastmod>2026-09-17</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://noravellestays.com/resources/us-luxury-hotel-trends/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://noravellestays.com/terms/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
 </urlset>
