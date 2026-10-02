@@ -13,7 +13,7 @@
   <url><loc>https://noravellestays.com/day-plans/new-orleans-garden-district-day/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/destinations/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://noravellestays.com/destinations/us/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://noravellestays.com/destinations/us/austin/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://noravellestays.com/destinations/us/austin/</loc><lastmod>2026-10-02</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://noravellestays.com/destinations/us/charleston/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://noravellestays.com/destinations/us/denver/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://noravellestays.com/destinations/us/miami/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -40,8 +40,8 @@
   <url><loc>https://noravellestays.com/guides/where-to-stay-in-miami/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/guides/where-to-stay-in-nashville/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/guides/where-to-stay-in-new-orleans/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://noravellestays.com/hotels/</loc><lastmod>2026-10-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://noravellestays.com/hotels/austin/</loc><lastmod>2026-09-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://noravellestays.com/hotels/</loc><lastmod>2026-10-02</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://noravellestays.com/hotels/austin/</loc><lastmod>2026-10-02</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/hotels/charleston/</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/hotels/columbus/</loc><lastmod>2026-09-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/hotels/denver/</loc><lastmod>2026-10-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
