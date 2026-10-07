@@ -343,6 +343,12 @@ main { min-height: 55vh; }
   color: #7b8496;
   font-size: 0.85rem;
 }
+.footer-operator {
+  margin: 0.55rem 0 0;
+  color: #e4edf4;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
 
 .form-grid { display: grid; gap: 0.9rem; max-width: 32rem; }
 label { font-weight: 600; display: block; margin-bottom: 0.3rem; font-size: 0.95rem; }
