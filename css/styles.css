@@ -344,11 +344,25 @@ main { min-height: 55vh; }
   font-size: 0.85rem;
 }
 .footer-operator {
-  margin: 0.55rem 0 0;
-  color: #e4edf4;
-  font-size: 0.95rem;
+  margin: 0.85rem 0 0;
+  color: #f7fafc;
+  font-size: 1rem;
   font-weight: 600;
+  line-height: 1.55;
 }
+.footer-legal-links {
+  margin: 0.7rem 0 0;
+  font-size: 1rem;
+  font-weight: 650;
+  line-height: 1.5;
+}
+.site-footer .footer-legal-links a {
+  color: #e7fffe;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  margin-right: 1.1rem;
+}
+.site-footer .footer-legal-links a:last-child { margin-right: 0; }
 
 .form-grid { display: grid; gap: 0.9rem; max-width: 32rem; }
 label { font-weight: 600; display: block; margin-bottom: 0.3rem; font-size: 0.95rem; }
