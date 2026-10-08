@@ -1,0 +1,7 @@
+# GitHub Pages builds this repo with Jekyll. Default excludes only drop
+# dotfiles, underscore paths, and a few vendor directories, so this key is
+# not excluded. List it anyway so the IndexNow file is always copied to the
+# site root.
+include:
+  - .htaccess
+  - 42e02e542760c2759c8f9a64e88f0f10.txt
