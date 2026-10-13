@@ -66,6 +66,11 @@ Every URL path for the static site (`noravellestays.com`):
 - `/resources/`
 - `/resources/us-luxury-hotel-trends/`
 - `/terms/`
+- `/travel/`
+- `/travel/christmas-travel-2026/`
+- `/travel/ryder-cup-2027-adare-manor/`
+- `/travel/spring-break-2027/`
+- `/travel/thanksgiving-2026/`
 
 ## Assets / meta
 
@@ -81,7 +86,7 @@ Every URL path for the static site (`noravellestays.com`):
 - `/ops/SEO_PUSH_NOTES.md`
 - `/ops/REVENUE_GATE.md`
 
-**Total HTML routes:** 62
+**Total HTML routes:** 67
 
 **Brand:** Noravelle Stays · Joshua Israel Ventures LLC · Contact subject `[Contact: Noravelle Stays]`
 
