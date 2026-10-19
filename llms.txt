@@ -9,7 +9,7 @@
 - [Charleston hotels](https://noravellestays.com/hotels/charleston/): French Quarter, South of Broad, Upper King, Mount Pleasant, and Kiawah notes, with official website links.
 - [Columbus hotels](https://noravellestays.com/hotels/columbus/): Short North boutiques, downtown towers, and Easton area hotels, with official website links.
 - [Denver hotels](https://noravellestays.com/hotels/denver/): LoDo, Union Station, Cherry Creek, the Golden Triangle, and the Theatre District, with official website links.
-- [Jacksonville hotels](https://noravellestays.com/hotels/jacksonville/): Downtown riverfront towers and the Ponte Vedra and Atlantic Beach coast, with official website links.
+- [Jacksonville hotels](https://noravellestays.com/hotels/jacksonville/): Ponte Vedra Beach, TPC Sawgrass, Atlantic Beach, Amelia Island, downtown, and LaVilla, with official website links.
 - [Kansas City hotels](https://noravellestays.com/hotels/kansas-city/): Country Club Plaza, downtown towers, and Crossroads hotels, with official website links.
 - [Miami hotels](https://noravellestays.com/hotels/miami/): South Beach, Mid Beach, Surfside, Brickell, Coconut Grove, Coral Gables, and Key Biscayne, with official website links.
 - [Nashville hotels](https://noravellestays.com/hotels/nashville/): The Gulch, downtown, SoBro, Music Row, and neighborhood bases, with official website links.
@@ -29,6 +29,7 @@
 - [Miami](https://noravellestays.com/destinations/us/miami/): Miami Beach, Brickell, and Coral Gables links for hotels, guides, and flights.
 - [Nashville](https://noravellestays.com/destinations/us/nashville/): Gulch, Music Row, and downtown links for hotels, guides, and planning.
 - [Tampa](https://noravellestays.com/destinations/us/tampa/): Downtown waterfront, Hyde Park, and bay area links for hotels and planning.
+- [Jacksonville](https://noravellestays.com/destinations/us/jacksonville/): Ponte Vedra, Amelia Island, Atlantic Beach, and downtown links for hotels and planning.
 
 ## Where to stay guides
 
