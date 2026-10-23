@@ -15,7 +15,42 @@
   <link rel="stylesheet" href="/css/styles.css">
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://noravellestays.com/"},{"@type":"ListItem","position":2,"name":"How pricing works","item":"https://noravellestays.com/how-pricing-works/"}]}
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "name": "How we recommend (and how pricing works)",
+      "url": "https://noravellestays.com/how-pricing-works/",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Joshua Israel Ventures LLC",
+        "brand": {
+          "@type": "Brand",
+          "name": "Noravelle Stays"
+        }
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://noravellestays.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "How pricing works",
+          "item": "https://noravellestays.com/how-pricing-works/"
+        }
+      ]
+    }
+  ]
+}
 </script>
 <script type="application/ld+json">
 {
@@ -24,10 +59,10 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Do you undercut Expedia’s hotel commission today?",
+      "name": "Do you undercut Expedia\u2019s hotel commission today?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. We do not claim to currently undercut any major OTA’s hotel take. Today Noravelle Stays is an affiliate referral MVP; commissions may come from partner programs when links are live."
+        "text": "No. We do not claim to currently undercut any major OTA\u2019s hotel take. Today Noravelle Stays is an affiliate referral MVP; commissions may come from affiliate programs when links are live."
       }
     },
     {
@@ -35,7 +70,7 @@
       "name": "Do you take my payment for hotel stays?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. We do not collect lodging payments or act as merchant of record. Checkout happens on third-party partner sites."
+        "text": "No. We do not collect lodging payments or act as merchant of record. Checkout happens on the hotel site."
       }
     },
     {
@@ -51,7 +86,7 @@
       "name": "Why do CTAs say Compare rates?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Because bookings and final prices live on partner sites. Soft CTAs set accurate expectations for an affiliate-only MVP."
+        "text": "Because bookings and final prices live on the hotel site. Soft CTAs set accurate expectations for an affiliate-only MVP."
       }
     },
     {
@@ -93,21 +128,21 @@
       </ol></nav>
       <h1 class="page-title">How we recommend (and how pricing works)</h1>
       <p class="lede">An honest account of how Noravelle Stays recommends hotels and how affiliate commissions work — without false undercut claims or “cheap hotel” positioning. Primary links on hotel pages go to official hotel websites; affiliate compare slots are optional and not live yet.</p>
-      <aside class="disclaimer-box" role="note"><p><em>Editorial guidance only. We do not sell lodging, collect payment, or act as merchant of record. Prices and availability change — verify on the partner site before you book. See our <a href="/disclaimer/">Disclaimer</a> and <a href="/affiliate-disclosure/">Affiliate Disclosure</a>.</em></p></aside>
+      <aside class="disclaimer-box" role="note"><p><em>Editorial guidance only. We do not sell lodging, collect payment, or act as merchant of record. Prices and availability change — verify on the official site before you book. See our <a href="/disclaimer/">Disclaimer</a> and <a href="/affiliate-disclosure/">Affiliate Disclosure</a>.</em></p></aside>
       <div class="content-block">
         <h2>Today: affiliate referral MVP</h2>
-        <p>Noravelle Stays currently operates as an <strong>affiliate-only</strong> site focused on <strong>boutique and luxury-leaning</strong> US stays (not budget/cheap-hotel positioning). When partner links are live, we may earn a commission if you book through them — typically at <strong>no extra cost to you</strong> versus booking the same offer on that partner without our link. We do <strong>not</strong> process your card, hold inventory, or issue hotel confirmations.</p>
+        <p>Noravelle Stays currently operates as an <strong>affiliate-only</strong> site focused on <strong>boutique and luxury-leaning</strong> US stays (not budget/cheap-hotel positioning). When affiliate links are live, we may earn a commission if you book through them, typically at <strong>no extra cost to you</strong> versus booking the same offer on that site without our link. We do <strong>not</strong> process your card, hold inventory, or issue hotel confirmations.</p>
         <h2>What we do not claim</h2>
-        <p>We do <strong>not</strong> claim that Noravelle Stays currently undercuts Expedia’s (or any other major OTA’s) hotel commission take, or that every stay is cheaper because you visited us. Rate differences depend on the partner, dates, property, and promotions — always compare and verify on the partner site.</p>
+        <p>We do <strong>not</strong> claim that Noravelle Stays currently undercuts Expedia’s (or any other major OTA’s) hotel commission take, or that every stay is cheaper because you visited us. Rate differences depend on the booking site, dates, property, and promotions. Always compare and verify on the official site.</p>
         <h2>Future goal: thinner direct hotel commission</h2>
         <p>Longer term, if we secure direct hotel contracts, our goal is a <strong>thinner commission</strong> structure than typical large-OTA defaults, so more value can stay with the traveler on higher-ticket and boutique bookings. That is a <strong>goal</strong>, not a guarantee, and it is <strong>not</strong> live until contracts and checkout flows exist. This MVP does not include payment collection.</p>
         
         <h2>Flight affiliates</h2>
-        <p>Flight CTAs may use affiliate or metasearch partners (Travelpayouts / Kayak-class when live). <strong>Flight commissions are typically thinner than hotel affiliate payouts</strong>, and some hotel-centric creator programs pay $0 on flights — which is why we keep a separate <code>flights</code> slot in our affiliate config rather than forcing all air traffic through a hotel-only program.</p>
+        <p>Flight CTAs may use affiliate or metasearch networks (Travelpayouts / Kayak-class when live). <strong>Flight commissions are typically thinner than hotel affiliate payouts</strong>, and some hotel-centric creator programs pay $0 on flights — which is why we keep a separate <code>flights</code> slot in our affiliate config rather than forcing all air traffic through a hotel-only program.</p>
         <p>We still disclose when links are affiliate. We do not sell tickets or process payment for air travel on Noravelle Stays.</p>
 
         <h2>How to use our CTAs</h2>
-        <p>Buttons and links labeled <strong>Compare rates</strong> (or similar) send you toward partner comparison or booking experiences. Read cancellation policies, fees, and total price before you pay.</p>
+        <p>Buttons and links labeled <strong>Compare rates</strong> (or similar) stay closed until a comparison program is live. Read cancellation policies, fees, and total price before you pay.</p>
         <p>City guides such as the <a href="/hotels/charleston/">Charleston luxury hotels</a> page, the <a href="/hotels/miami/">Miami luxury hotels</a> page, the <a href="/hotels/kansas-city/">Kansas City luxury hotels</a> page, and the <a href="/hotels/columbus/">Columbus luxury hotels</a> page send the main button to the official hotel site. Compare buttons on those pages stay closed until a program is live.</p>
         <div class="faq" style="margin-top:1.5rem;">
           <h2>FAQ</h2>
@@ -117,7 +152,7 @@
           </details>
           <details>
             <summary>Do you take my payment for hotel stays?</summary>
-            <p>No. We do not collect lodging payments or act as merchant of record. Checkout happens on third-party partner sites.</p>
+            <p>No. We do not collect lodging payments or act as merchant of record. Checkout happens on the hotel site.</p>
           </details>
           <details>
             <summary>What is the long-term pricing goal?</summary>
@@ -125,7 +160,7 @@
           </details>
           <details>
             <summary>Why do CTAs say Compare rates?</summary>
-            <p>Because bookings and final prices live on partner sites. Soft CTAs set accurate expectations for an affiliate-only MVP.</p>
+            <p>Because bookings and final prices live on the hotel site. Soft CTAs set accurate expectations for an affiliate-only MVP.</p>
           </details>
         
           <details>
@@ -135,9 +170,9 @@
         </div>
         <div class="cta-box">
         <h2>Compare hotel rates</h2>
-        <p>When you are ready, compare rates on partner booking sites. Noravelle Stays does not process payments or confirm reservations.</p>
+        <p>Rate comparison is not live yet. Noravelle Stays does not process payments or confirm reservations.</p>
         <a class="btn btn-outline" data-affiliate="hotels" href="#">Rate comparison networks — not live yet</a>
-        <p class="affiliate-note">We may earn an affiliate commission if you book through a partner link — at no extra cost to you. See our <a href="/affiliate-disclosure/">Affiliate Disclosure</a>.</p>
+        <p class="affiliate-note">We may earn an affiliate commission if you book through an affiliate link — at no extra cost to you. See our <a href="/affiliate-disclosure/">Affiliate Disclosure</a>.</p>
       </div>
       </div>
 
@@ -174,7 +209,7 @@
         </div>
       </div>
       <div class="footer-legal">
-        <p>Informational and affiliate referral only. Bookings, payments, and lodging contracts happen on hotel or third-party partner sites — not on Noravelle Stays. We are not a travel agency seller-of-travel for this MVP and are not party to your hotel contract. Hotels named here do not endorse Noravelle Stays. Prices change — verify on the official hotel site (or partner site) before booking. We do not claim to undercut any major OTA’s commission today. <a href="/disclaimer/">Disclaimer</a> · <a href="/affiliate-disclosure/">Affiliate Disclosure</a> · <a href="/how-pricing-works/">How we recommend</a></p>
+        <p>Informational and affiliate referral only. Bookings, payments, and lodging contracts happen on hotel sites — not on Noravelle Stays. We are not a travel agency seller-of-travel for this MVP and are not party to your hotel contract. Hotels named here do not endorse Noravelle Stays. Prices change — verify on the official hotel site before booking. We do not claim to undercut any major OTA’s commission today. <a href="/disclaimer/">Disclaimer</a> · <a href="/affiliate-disclosure/">Affiliate Disclosure</a> · <a href="/how-pricing-works/">How we recommend</a></p>
         <p class="footer-meta">&copy; 2026 Joshua Israel Ventures LLC. Hotel and destination names used for identification only (nominative fair use).</p>
         <p class="footer-operator">&copy; 2026 Joshua Israel Ventures LLC. All rights reserved. Noravelle Stays is owned and operated by Joshua Israel Ventures LLC.</p>
         <nav class="footer-legal-links" aria-label="Legal">
