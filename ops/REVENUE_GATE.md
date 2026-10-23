@@ -1,8 +1,8 @@
 # Noravelle Stays — revenue gate
 
-**Owner:** Joshua Israel Ventures LLC  
+**Owner:** Noravelle Stays  
 **Site:** https://noravellestays.com  
-**Contact:** Formsubmit to joshuaofisrael@gmail.com with `[Contact: Noravelle Stays]`
+**Contact:** Formsubmit from the contact page with `[Contact: Noravelle Stays]`
 
 ## Pre-revenue (now)
 - Soft "Compare rates / Compare flights" CTAs only
@@ -14,7 +14,7 @@
 2. **≥ 100 Google Search Console clicks / week** (last 7 days)
 
 ## When gate opens
-1. Notify Joshua with the metric that tripped
+1. Notify the site owner with the metric that tripped
 2. Ask which affiliate programs to wire (Travelpayouts/Kayak-class flights; Booking/Expedia Creator hotels)
 3. Only then replace placeholders in `js/affiliates.js` and confirm FTC disclosure still accurate
 4. Log activation date here
