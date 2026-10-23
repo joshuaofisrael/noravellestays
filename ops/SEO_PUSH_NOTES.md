@@ -1,6 +1,6 @@
 # SEO push notes — foundation batch (10 Sep 2026)
 
-**Owner:** Joshua Israel / Joshua Israel Ventures LLC · **Site:** noravellestays.com  
+**Owner:** Noravelle Stays · **Site:** noravellestays.com  
 **Mode:** Steady compounding. Quality over volume. No bought links, directory spam, or shady schemes.
 
 ## What shipped today (foundation only)
@@ -61,7 +61,7 @@ Nav/footer: Resources entry added on patched pages; Explore footer lists resourc
 **Not used:** inventing citations; Resonance “$544B” secondary press was noted in research but not required for this brief — prefer primary .gov/.org/industry pages above.
 
 ## Guardrails still in force
-- Contact: `[Contact: Noravelle Stays]` → joshuaofisrael@gmail.com
+- Contact: `[Contact: Noravelle Stays]` via the contact form
 - Soft Compare CTAs only; affiliates stay `#`
 - No false Expedia undercut claims
 - Original content only; no plagiarism / scraped OTA copy

@@ -1,6 +1,6 @@
 # Noravelle Stays (`noravellestays.com`)
 
-Static **luxury / boutique US stay guides + day plans** for **Noravelle Stays**, owned and operated by **Joshua Israel Ventures LLC**.
+Static **luxury / boutique US stay guides + day plans** for **Noravelle Stays**.
 
 We recommend **specific hotels** and link to their **official websites** (and trusted city lodging lists). Optional affiliate rate comparison may be added later and will stay disclosed. **No payment collection, no checkout, not merchant of record.** Hotels do not endorse Noravelle Stays.
 
@@ -35,7 +35,7 @@ Open `http://127.0.0.1:8080/`.
 ## Legal / contact
 
 - `/affiliate-disclosure/`, `/privacy/`, `/terms/`, `/disclaimer/`, `/how-pricing-works/`
-- Contact: FormSubmit → `joshuaofisrael@gmail.com`, subject `[Contact: Noravelle Stays]`
+- Contact: the form on `/contact/`, subject `[Contact: Noravelle Stays]`. The inbox address is on the privacy page.
 - Checklist: `ops/LEGAL_CONTENT_NOTES.md`
 
 ## Content rules

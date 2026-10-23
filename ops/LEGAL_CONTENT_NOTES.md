@@ -1,10 +1,10 @@
 # Legal content checklist — clarity rebuild (2026-09-10)
 
-Site: **Noravelle Stays** (`noravellestays.com`) · Operator: **Joshua Israel Ventures LLC**
+Site: **Noravelle Stays** (`noravellestays.com`) · Operator: named on Terms, Privacy, Disclaimer, and Affiliate Disclosure
 
 ## Ownership & contact
-- [x] LLC named in footers sitewide, About, Organization schema, homepage hero
-- [x] `/contact/` Formsubmit → `joshuaofisrael@gmail.com` with subject `[Contact: Noravelle Stays]` and thanks `_next` URL unchanged
+- [x] Operator named on Terms, Privacy, Disclaimer, and Affiliate Disclosure. Footer, About, schema, and the homepage use the brand Noravelle Stays.
+- [x] `/contact/` Formsubmit with subject `[Contact: Noravelle Stays]` and thanks `_next` URL unchanged. The inbox address is on the privacy page.
 
 ## Affiliate / merchant posture
 - [x] No payment collection, no checkout, not merchant of record
@@ -22,7 +22,7 @@ Site: **Noravelle Stays** (`noravellestays.com`) · Operator: **Joshua Israel Ve
 - [x] Images: original day-plan illustrations only under `/images/dayplans/` (no scraped hotel brand photos)
 
 ## Product clarity
-- [x] Homepage explains guides + named hotels + official links + optional future affiliate + LLC
+- [x] Homepage explains guides + named hotels + official links + optional future affiliate
 - [x] Nav: Destinations | Hotels | Day plans | Guides | Resources | About | Contact (Pricing removed from primary; “How we recommend” → how-pricing-works in footer)
 - [x] Breadcrumb/nav Nashville hardcoding fixed for section hubs
 - [x] Day plans with Article schema + original art alt text

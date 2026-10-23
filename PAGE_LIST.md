@@ -88,6 +88,6 @@ Every URL path for the static site (`noravellestays.com`):
 
 **Total HTML routes:** 67
 
-**Brand:** Noravelle Stays · Joshua Israel Ventures LLC · Contact subject `[Contact: Noravelle Stays]`
+**Brand:** Noravelle Stays · Contact subject `[Contact: Noravelle Stays]`
 
 **Positioning:** Curated luxury/boutique US stay guides + day plans; named hotel picks with official-site links; optional affiliate compare later (disclosed); no merchant of record; no hotel endorsement claims.
