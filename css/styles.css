@@ -295,6 +295,11 @@ main { min-height: 55vh; }
   padding-left: 0.85rem;
   margin: 1rem 0;
 }
+.byline {
+  margin: 0.15rem 0 1rem;
+  font-size: 0.98rem;
+  color: var(--navy);
+}
 .faq details {
   border: 1px solid var(--border);
   border-radius: 8px;
