@@ -473,7 +473,7 @@ textarea { min-height: 140px; resize: vertical; }
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 0 0 1.1rem;
+  padding: 1.1rem 0;
   box-shadow: var(--shadow);
   overflow: hidden;
   display: flex;
@@ -529,6 +529,12 @@ textarea { min-height: 140px; resize: vertical; }
   display: block;
 }
 .dayplan-hero figcaption { font-size: 0.85rem; color: var(--muted); margin-top: 0.4rem; }
+.photo-credit {
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.4;
+  margin: 0.35rem 0 0.75rem;
+}
 .dayplan-grid .card img {
   width: 100%;
   border-radius: 8px;
