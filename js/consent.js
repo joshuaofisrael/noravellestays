@@ -1,5 +1,5 @@
 (function () {
-  var KEY = "nv_ga_consent";
+  var KEY = "mtm-analytics-consent";
 
   function read() {
     try {
@@ -23,9 +23,48 @@
     window.gtag("consent", "update", { analytics_storage: value });
   }
 
-  function build() {
+  function gaCookieNames() {
+    var names = [];
+    document.cookie.split(";").forEach(function (part) {
+      var name = part.split("=")[0].replace(/^\s+/, "");
+      if (!name) return;
+      if (name === "_ga" || name.indexOf("_ga_") === 0) names.push(name);
+    });
+    return names;
+  }
+
+  function eraseCookie(name) {
+    var expired = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; Max-Age=0";
+    var host = location.hostname;
+    var domains = [host, "." + host];
+    var labels = host.split(".");
+    if (labels.length > 2) domains.push("." + labels.slice(-2).join("."));
+    var paths = ["/"];
+    document.cookie = expired + "; path=/";
+    domains.forEach(function (domain) {
+      paths.forEach(function (path) {
+        var cookie = expired + "; path=" + path + "; domain=" + domain;
+        document.cookie = cookie;
+        document.cookie = cookie + "; Secure";
+      });
+    });
+  }
+
+  function deleteGaCookies() {
+    gaCookieNames().forEach(eraseCookie);
+  }
+
+  function removeBanner() {
+    var existing = document.getElementById("mtm-consent");
+    if (existing && existing.parentNode) existing.parentNode.removeChild(existing);
+  }
+
+  function insertBanner(moveFocus) {
+    removeBanner();
+    var choice = read();
+
     var banner = document.createElement("div");
-    banner.id = "cookie-banner";
+    banner.id = "mtm-consent";
     banner.className = "cookie-banner";
     banner.setAttribute("role", "region");
     banner.setAttribute("aria-label", "Cookie consent");
@@ -44,74 +83,58 @@
 
     var accept = document.createElement("button");
     accept.type = "button";
-    accept.id = "cookie-accept";
-    accept.className = "cookie-accept";
+    accept.className = "acc";
     accept.textContent = "Accept";
 
     var reject = document.createElement("button");
     reject.type = "button";
-    reject.id = "cookie-reject";
-    reject.className = "cookie-reject";
+    reject.className = "rej";
     reject.textContent = "Reject";
+
+    if (choice === "granted" || choice === "denied") {
+      accept.setAttribute("aria-pressed", choice === "granted" ? "true" : "false");
+      reject.setAttribute("aria-pressed", choice === "denied" ? "true" : "false");
+    }
 
     actions.appendChild(accept);
     actions.appendChild(reject);
     banner.appendChild(text);
     banner.appendChild(actions);
 
-    var manage = document.createElement("button");
-    manage.type = "button";
-    manage.id = "cookie-manage";
-    manage.className = "cookie-manage";
-    manage.textContent = "Cookie choices";
-
-    function syncPressed() {
-      var choice = read();
-      accept.setAttribute("aria-pressed", choice === "granted" ? "true" : "false");
-      reject.setAttribute("aria-pressed", choice === "denied" ? "true" : "false");
-    }
-
-    function showBanner() {
-      syncPressed();
-      banner.hidden = false;
-      manage.hidden = true;
-    }
-
-    function hideBanner() {
-      banner.hidden = true;
-      manage.hidden = false;
-    }
-
     accept.addEventListener("click", function () {
       write("granted");
       update("granted");
-      hideBanner();
+      removeBanner();
     });
 
     reject.addEventListener("click", function () {
       write("denied");
       update("denied");
-      hideBanner();
-    });
-
-    manage.addEventListener("click", function () {
-      showBanner();
-      banner.focus();
+      deleteGaCookies();
+      removeBanner();
     });
 
     document.body.appendChild(banner);
-    document.body.appendChild(manage);
+    if (moveFocus) banner.focus();
+  }
 
-    if (read() === "granted" || read() === "denied") {
-      hideBanner();
-    } else {
-      showBanner();
-    }
+  function boot() {
+    var choice = read();
+    if (choice !== "granted" && choice !== "denied") insertBanner(false);
+
+    document.addEventListener("click", function (event) {
+      var node = event.target;
+      if (!node || typeof node.closest !== "function") return;
+      var opener = node.closest("[data-consent-open]");
+      if (!opener || !document.body.contains(opener)) return;
+      event.preventDefault();
+      insertBanner(true);
+    });
   }
 
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", build);
+    document.addEventListener("DOMContentLoaded", boot);
   } else {
-    build();
+    boot();
   }
 })();
