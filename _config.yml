@@ -6,3 +6,21 @@ include:
   - .htaccess
   - 42e02e542760c2759c8f9a64e88f0f10.txt
   - llms.txt
+
+# Setting exclude replaces the Jekyll defaults, so the defaults are repeated.
+# drafts, content-review, scripts, and tests must not be in the published site.
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - drafts/
+  - content-review/
+  - scripts/
+  - tests/
