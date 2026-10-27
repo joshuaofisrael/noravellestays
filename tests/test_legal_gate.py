@@ -160,13 +160,35 @@ class LegalGateTests(unittest.TestCase):
         manifest = {
             "images": [
                 {"path": "photo.jpg", "status": "HOLD", "licence": None},
-                {"path": "owned.jpg", "status": "documented", "licence": "Publisher retains the copyright."},
-                {"path": "icons/mark.svg", "status": "documented", "licence": "Original icon."},
+                {
+                    "path": "owned.jpg",
+                    "status": "documented",
+                    "licence": "CC BY 4.0",
+                    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+                    "source_page_url": "https://commons.wikimedia.org/wiki/File:Example.jpg",
+                    "author": "Example Author",
+                    "retrieved": "2026-10-27",
+                },
+                {
+                    "path": "partial.jpg",
+                    "status": "documented",
+                    "licence": "CC BY 4.0",
+                },
+                {
+                    "path": "icons/mark.svg",
+                    "status": "documented",
+                    "licence": "CC0 1.0",
+                    "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+                    "source_page_url": "https://commons.wikimedia.org/wiki/File:Mark.svg",
+                    "author": "Example Author",
+                    "retrieved": "2026-10-27",
+                },
             ]
         }
         html = """
         <img src="/photo.jpg" alt="A lobby">
         <img src="/owned.jpg" alt="A desk">
+        <img src="/partial.jpg" alt="A lamp">
         <img src="/blank.jpg" alt="">
         <img src="/icons/mark.svg" alt="" role="presentation">
         <img src="art.png" alt="AI generated portrait of a guest">
@@ -175,6 +197,7 @@ class LegalGateTests(unittest.TestCase):
         keys = {(item.rule, item.key) for item in findings}
         self.assertIn(("3", "photo.jpg"), keys)
         self.assertNotIn(("3", "owned.jpg"), keys)
+        self.assertIn(("3", "partial.jpg"), keys)
         self.assertNotIn(("3", "blank.jpg"), keys)
         self.assertNotIn(("3", "icons/mark.svg"), keys)
         self.assertIn(("3", "city/art.png"), keys)
@@ -238,17 +261,56 @@ class LegalGateTests(unittest.TestCase):
         self.assertIn("needs: legal-gate", workflow)
         self.assertIn("actions/deploy-pages", workflow)
 
-    def test_manifest_does_not_guess_and_records_credit(self) -> None:
+    def test_manifest_records_documented_licences(self) -> None:
         manifest = json.loads((ROOT / "content-review/image-licences.json").read_text(encoding="utf-8"))
         paths = {item["path"] for item in manifest["images"]}
-        for rel in legal_gate.image_files(ROOT):
-            self.assertIn(rel, paths)
+        self.assertEqual(paths, set(legal_gate.image_files(ROOT)))
+        self.assertNotIn("images/hotels/kansas-city-loews.jpg", paths)
         for item in manifest["images"]:
-            self.assertEqual(item["status"], "HOLD")
-            self.assertFalse(item.get("licence"))
-        by_path = {item["path"]: item for item in manifest["images"]}
-        self.assertIn("Noravelle", by_path["images/hotels/tampa-hero.jpg"]["credit"])
-        self.assertIn("Illustrative", by_path["assets/img/breakfast.webp"]["credit"])
+            self.assertTrue(legal_gate.licence_publishes(item), item["path"])
+            self.assertTrue(item["source_page_url"].startswith("https://commons.wikimedia.org/wiki/File:"))
+            self.assertEqual(item["retrieved"], "2026-10-27")
+            self.assertIs(item["synthetic"], False)
+        tampa = next(item for item in manifest["images"] if item["path"] == "images/hotels/tampa-hero.jpg")
+        self.assertEqual(tampa["licence"], "CC BY-SA 4.0")
+        self.assertIn("Downtown_Tampa", tampa["source_page_url"])
+        self.assertEqual(tampa["author"], "Clément Bardot")
+        breakfast = next(item for item in manifest["images"] if item["path"] == "assets/img/breakfast.webp")
+        self.assertIn("illustrative", breakfast["credit"].lower())
+
+    def test_build_manifest_preserves_documented_rows(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            image_dir = root / "images"
+            image_dir.mkdir()
+            (image_dir / "kept.jpg").write_bytes(b"kept")
+            (image_dir / "new.jpg").write_bytes(b"new")
+            review = root / "content-review"
+            review.mkdir()
+            (review / "image-licences.json").write_text(
+                json.dumps(
+                    {
+                        "images": [
+                            {
+                                "path": "images/kept.jpg",
+                                "status": "documented",
+                                "licence": "CC0 1.0",
+                                "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+                                "source_page_url": "https://commons.wikimedia.org/wiki/File:Kept.jpg",
+                                "author": "Example Author",
+                                "retrieved": "2026-10-27",
+                            }
+                        ]
+                    }
+                ),
+                encoding="utf-8",
+            )
+            manifest = legal_gate.build_manifest(root)
+            by_path = {item["path"]: item for item in manifest["images"]}
+            self.assertEqual(by_path["images/kept.jpg"]["licence"], "CC0 1.0")
+            self.assertEqual(by_path["images/kept.jpg"]["author"], "Example Author")
+            self.assertEqual(by_path["images/new.jpg"]["status"], "HOLD")
+            self.assertFalse(by_path["images/new.jpg"].get("licence"))
 
     def test_live_site_gate_is_not_blocking(self) -> None:
         outcome = legal_gate.evaluate(ROOT, write_queue=False)

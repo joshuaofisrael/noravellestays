@@ -428,12 +428,16 @@ def manifest_index(manifest: dict) -> dict[str, dict]:
     return index
 
 
+LICENCE_FIELDS = ("licence", "licence_url", "source_page_url", "author", "retrieved")
+
+
 def licence_publishes(entry: dict | None) -> bool:
+    """A publishable row names the licence, its URL, the source page, the author, and the retrieval date."""
     if not entry:
         return False
     if str(entry.get("status", "")).upper() == "HOLD":
         return False
-    return bool(str(entry.get("licence") or "").strip())
+    return all(str(entry.get(field) or "").strip() for field in LICENCE_FIELDS)
 
 
 def analyze_html(html: str, rel: str, manifest: dict) -> tuple[list[Finding], list[Note]]:
@@ -586,7 +590,8 @@ def image_files(root: Path) -> list[str]:
 
 
 def build_manifest(root: Path) -> dict:
-    """Record every image. Licence stays null unless a real grant is already on file."""
+    """Record every image. Documented rows already on file are kept. New files stay HOLD."""
+    prior = manifest_index(load_json(root / "content-review" / "image-licences.json", {}))
     credits: dict[str, dict] = {}
     for path in iter_html(root):
         rel = path.relative_to(root).as_posix()
@@ -614,12 +619,22 @@ def build_manifest(root: Path) -> dict:
     images = []
     for rel in image_files(root):
         slot = credits.get(rel, {"alts": [], "pages": []})
+        existing = prior.get(rel)
+        if licence_publishes(existing):
+            kept = dict(existing)
+            kept["credit_pages"] = slot["pages"][:12]
+            images.append(kept)
+            continue
         credit = " | ".join(slot["alts"])[:1200] if slot["alts"] else None
         images.append(
             {
                 "path": rel,
                 "status": "HOLD",
                 "licence": None,
+                "licence_url": None,
+                "source_page_url": None,
+                "author": None,
+                "retrieved": None,
                 "credit": credit,
                 "credit_pages": slot["pages"][:12],
                 "synthetic": None,
@@ -634,9 +649,9 @@ def build_manifest(root: Path) -> dict:
         "site": SITE,
         "note": (
             "Every image file under images/ and assets/img/. status HOLD means do not "
-            "publish a new use of this file. A documented row needs status other than "
-            "HOLD and a non empty licence string. synthetic null means the repo does "
-            "not label the file as AI."
+            "publish that file. A documented row needs status other than HOLD plus "
+            "licence, licence_url, source_page_url, author, and retrieved. "
+            "--write-manifest keeps rows that already meet that test."
         ),
         "images": images,
     }

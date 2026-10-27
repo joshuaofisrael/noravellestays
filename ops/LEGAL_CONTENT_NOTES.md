@@ -19,13 +19,13 @@ Site: **Noravelle Stays** (`noravellestays.com`) · Operator: named on Terms, Pr
 - [x] Hotel names used for identification only
 - [x] Official hotel URLs verified via WebSearch/WebFetch/curl (no invented URLs)
 - [x] Optional curated directories: miamiandbeaches.com, charlestoncvb.com lodging, visitmusiccity.com, neworleans.com/hotels, austintexas.org luxury hotels blog
-- [x] Images: original day-plan illustrations only under `/images/dayplans/` (no scraped hotel brand photos)
+- [x] Images: licensed photographs with the source recorded in content-review/image-licences.json (no scraped hotel brand photos). A picture is not presented as a named hotel unless it is that hotel.
 
 ## Product clarity
 - [x] Homepage explains guides + named hotels + official links + optional future affiliate
 - [x] Nav: Destinations | Hotels | Day plans | Guides | Resources | About | Contact (Pricing removed from primary; “How we recommend” → how-pricing-works in footer)
 - [x] Breadcrumb/nav Nashville hardcoding fixed for section hubs
-- [x] Day plans with Article schema + original art alt text
+- [x] Day plans with Article schema and credited place photographs
 
 ## SEO / ops hygiene
 - [x] Sitemap, PAGE_LIST, README updated
