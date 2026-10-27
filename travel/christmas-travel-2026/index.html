@@ -98,7 +98,7 @@
     'ad_personalization': 'denied'
   });
   try {
-    if (localStorage.getItem('nv_ga_consent') === 'granted') {
+    if (localStorage.getItem('mtm-analytics-consent') === 'granted') {
       gtag('consent', 'update', { 'analytics_storage': 'granted' });
     }
   } catch (e) {}
@@ -320,6 +320,7 @@
           <a href="/privacy/">Privacy</a>
           <a href="/disclaimer/">Disclaimer</a>
           <a href="/contact/">Contact</a>
+          <a href="#mtm-consent" data-consent-open>Cookie choices</a>
         </nav>
       </div>
     </div>
