@@ -1,0 +1,957 @@
+{
+  "site": "noravellestays.com",
+  "note": "Every image file under images/ and assets/img/. status HOLD means do not publish a new use of this file. A documented row needs status other than HOLD and a non empty licence string. synthetic null means the repo does not label the file as AI.",
+  "images": [
+    {
+      "path": "assets/img/breakfast.webp",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Breakfast table with fruit, bread, and coffee in morning light. Illustrative image, not a specific hotel.",
+      "credit_pages": [
+        "destinations/us/charleston/index.html",
+        "destinations/us/miami/index.html",
+        "index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "assets/img/hero-lobby.webp",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Sunlit hotel lobby with tall windows, a pale stone floor, and empty seating. Illustrative image, not the hotel named. | Sunlit hotel lobby with tall windows, a pale stone floor, and empty seating. Illustrative image, not a specific hotel.",
+      "credit_pages": [
+        "guides/how-to-choose-a-luxury-hotel/index.html",
+        "hotels/index.html",
+        "hotels/jacksonville/index.html",
+        "index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "assets/img/rooftop-pool.webp",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Rooftop pool and terrace in warm daylight, with empty loungers and a distant skyline. Illustrative image, not a specific hotel.",
+      "credit_pages": [
+        "destinations/us/index.html",
+        "hotels/tampa/index.html",
+        "index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "assets/img/suite-city-view.webp",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Hotel suite with a wide window and a distant city skyline. Illustrative image, not a specific hotel. | Hotel suite with a wide window and a distant city skyline. Illustrative image, not the hotel named.",
+      "credit_pages": [
+        "destinations/index.html",
+        "guides/new-york-vs-miami-luxury-hotels/index.html",
+        "hotels/austin/index.html",
+        "hotels/denver/index.html",
+        "index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/dayplans/austin-soco.png",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle illustration of Austin South Congress — neon, food trailers, and oak shade (original artwork, not a hotel brand photo). Original Noravelle illustration — not a hotel brand photo. | Original Noravelle illustration of Austin South Congress — neon, food trailers, and oak shade (original artwork, not a hotel brand photo).",
+      "credit_pages": [
+        "day-plans/austin-south-congress-day/index.html",
+        "day-plans/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/dayplans/charleston-historic.png",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle illustration of Charleston Historic District — pastel mansions, live oaks, and lantern-lit streets (original artwork, not a hotel photo). Original Noravelle illustration — not a hotel brand photo. | Original Noravelle illustration of Charleston Historic District — pastel mansions, live oaks, and lantern-lit streets (original artwork, not a hotel photo). | Original Noravelle illustration of pastel houses, live oaks, and lantern light in Charleston (original artwork, not a hotel brand photo). Editorial mood art for Charleston luxury stays. Original Noravelle artwork, not a hotel property photo.",
+      "credit_pages": [
+        "day-plans/charleston-historic-day/index.html",
+        "day-plans/index.html",
+        "hotels/charleston/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/dayplans/miami-beach.png",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle illustration of a Miami Beach luxury day — teal ocean, pastel Art Deco, and resort cabanas (not a hotel brand photo). | Original Noravelle illustration of a Miami Beach luxury day — teal ocean, pastel Art Deco, and resort cabanas (not a hotel brand photo). Original Noravelle illustration — not a hotel brand photo. | Original Noravelle illustration of a Miami Beach luxury day, with teal ocean, pastel Art Deco forms, and resort cabanas (original artwork, not a hotel brand photo). Editorial mood art for Miami luxury stays. Original Noravelle artwork, not a hotel property photo.",
+      "credit_pages": [
+        "day-plans/index.html",
+        "day-plans/miami-beach-luxury-day/index.html",
+        "hotels/miami/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/dayplans/nashville-evening.png",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle illustration of a Nashville evening skyline with warm lights and music-city energy (original artwork). | Original Noravelle illustration of a Nashville evening skyline with warm lights and music-city energy (original artwork). Original Noravelle illustration — not a hotel brand photo.",
+      "credit_pages": [
+        "day-plans/index.html",
+        "day-plans/nashville-evening-luxury/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/dayplans/nola-garden.png",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle illustration of a New Orleans Garden District street with mansions, oaks, and a streetcar (original artwork). | Original Noravelle illustration of a New Orleans Garden District street with mansions, oaks, and a streetcar (original artwork). Original Noravelle illustration — not a hotel brand photo.",
+      "credit_pages": [
+        "day-plans/index.html",
+        "day-plans/new-orleans-garden-district-day/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/austin-commodore-perry.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: limestone mansion facade with garden hedges (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/austin/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/austin-fourseasons.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: lakeside spa deck at dusk with trail trees (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/austin/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/austin-hero.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle illustration of an Austin dusk skyline over Lady Bird Lake, seen through an elegant suite window (original artwork, not a hotel brand photo). Editorial mood art for Austin luxury stays. Original Noravelle artwork, not a hotel property photo.",
+      "credit_pages": [
+        "hotels/austin/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/austin-heywood.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: warm bungalow porch glow at evening (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/austin/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/austin-line.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: modern lakefront facade with teal water shimmer (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/austin/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/austin-saint-cecilia.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: secluded pool courtyard with palm silhouettes (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/austin/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/charleston-place.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: downtown landmark facade with warm evening windows (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/charleston/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/charleston-planters.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: City Market porch evening with lantern row (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/charleston/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/charleston-spectator.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: Jazz Age lobby warmth with gold column glow (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/charleston/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/charleston-wentworth.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: Gilded Age mansion silhouette with cupola glow (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/charleston/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/charleston-zero-george.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: Historic District courtyard with oaks and gas lantern glow (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/charleston/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/columbus-blackwell.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: calm campus-adjacent suite with warm wood tones (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/columbus/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/columbus-graduate.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: warm collegiate boutique lobby with plaid accents (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/columbus/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/columbus-hero.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle illustration of a Columbus dusk skyline seen through an elegant suite window (original artwork, not a hotel brand photo). Editorial mood art for Columbus luxury stays. Original Noravelle artwork, not a hotel property photo.",
+      "credit_pages": [
+        "hotels/columbus/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/columbus-hilton-downtown.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: modern full-service downtown suite with skyline glow (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/columbus/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/columbus-hotel-leveque.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: Art Deco tower glow at dusk (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/columbus/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/columbus-the-joseph.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: mid-century suite with gallery-wall color (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/columbus/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/denver-art.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: contemporary gallery corridor with abstract color panels (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/denver/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/denver-crawford.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: warm historic loft with arched windows (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/denver/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/denver-fourseasons.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: dusk mountain view from a suite window (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/denver/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/denver-halcyon.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: modern boutique rooftop pool under a bright sky (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/denver/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/denver-hero.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle illustration of a Denver dusk skyline with Rocky Mountain silhouettes, seen through an elegant suite window (original artwork, not a hotel brand photo). Editorial mood art for Denver luxury stays. Original Noravelle artwork, not a hotel property photo.",
+      "credit_pages": [
+        "hotels/denver/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/denver-oxford.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: Gilded Age lobby warmth with columns and chandelier glow (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/denver/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/jacksonville-dune-house.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art of Atlantic dunes and sea oats at dusk. Illustrative mood art, not a photo of the hotel named beside it.",
+      "credit_pages": [
+        "hotels/jacksonville/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/jacksonville-hero.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle illustration of a Jacksonville St. Johns River dusk skyline with palm silhouettes, seen through an elegant suite window (original artwork, not a hotel brand photo). Editorial mood art for Jacksonville luxury stays. Original Noravelle artwork, not a hotel property photo.",
+      "credit_pages": [
+        "hotels/jacksonville/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/jacksonville-hyatt-regency-riverfront.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art of a downtown riverfront tower and bridge lights over the St. Johns. Illustrative mood art, not a photo of the hotel named beside it.",
+      "credit_pages": [
+        "hotels/jacksonville/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/jacksonville-lodge-club.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art of Mediterranean arches and lantern light. Illustrative mood art, not a photo of the hotel named beside it.",
+      "credit_pages": [
+        "hotels/jacksonville/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/jacksonville-ponte-vedra-inn-club.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art of a historic oceanfront inn under a warm Atlantic horizon. Illustrative mood art, not a photo of the hotel named beside it.",
+      "credit_pages": [
+        "hotels/jacksonville/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/jacksonville-sawgrass-marriott.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art of a golf fairway and lagoon at dusk with pine silhouettes. Illustrative mood art, not a photo of the hotel named beside it.",
+      "credit_pages": [
+        "hotels/jacksonville/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/kansas-city-crossroads.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: creative Crossroads loft-style suite with gallery-district color (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/kansas-city/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/kansas-city-fontaine.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: Plaza-adjacent suite with warm Spanish-revival tones (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/kansas-city/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/kansas-city-hero.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle illustration of a Kansas City dusk skyline with Plaza-inspired glow seen through an elegant suite window (original artwork, not a hotel brand photo). Editorial mood art for Kansas City luxury stays. Original Noravelle artwork, not a hotel property photo.",
+      "credit_pages": [
+        "hotels/kansas-city/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/kansas-city-hotel-phillips.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: Art Deco downtown tower glow at dusk (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/kansas-city/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/kansas-city-intercontinental-plaza.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: polished Plaza full-service suite with soft evening light (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/kansas-city/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/kansas-city-loews.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": null,
+      "credit_pages": [],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/miami-1-hotel.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: nature forward beach canopy and ocean strip (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/miami/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/miami-faena.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: theatrical Mid Beach suite glow with ocean window light (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/miami/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/miami-fourseasons.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: Brickell skyline dusk with glowing tower windows over water (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/miami/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/miami-setai.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: calm dusk beach horizon with soft sand (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/miami/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/miami-surf-club.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: bright ocean horizon and soft sand band (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/miami/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/nashville-1-hotel.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: nature-inspired wood slats with soft green foliage (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/nashville/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/nashville-fourseasons.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: rooftop pool dusk with river shimmer (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/nashville/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/nashville-hermitage.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: grand lobby columns with chandelier glow (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/nashville/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/nashville-hero.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle illustration of a Nashville dusk skyline seen through an elegant suite window (original artwork, not a hotel brand photo). Editorial mood art for Nashville luxury stays. Original Noravelle artwork, not a hotel property photo.",
+      "credit_pages": [
+        "hotels/nashville/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/nashville-joseph.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: warm ochre dining room with candlelight (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/nashville/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/nashville-noelle.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: Art Deco arches with warm geometric sunburst (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/nashville/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/new-orleans-hero.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle illustration of a New Orleans courtyard dusk with wrought-iron balcony hints, seen through an elegant suite window (original artwork, not a hotel brand photo). Editorial mood art for New Orleans luxury stays. Original Noravelle artwork, not a hotel property photo.",
+      "credit_pages": [
+        "hotels/new-orleans/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/new-orleans-maison-metier.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: Parisian guesthouse windows with soft brass accents (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/new-orleans/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/new-orleans-peter-paul.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: pointed church arches with stained-glass color glow (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/new-orleans/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/new-orleans-pontchartrain.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: avenue streetcar under live-oak canopy at dusk (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/new-orleans/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/new-orleans-saint-vincent.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: palm courtyard pool under wrought iron balcony glow (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/new-orleans/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/new-orleans-windsor-court.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: quiet gallery corridor with arched frames (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/new-orleans/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/raleigh-guest-house.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: soft daylight parlour window with pecan tree courtyard greens (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/raleigh/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/raleigh-heights-house.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: Italianate mansion pillars with warm rotunda glow (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/raleigh/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/raleigh-hero.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle illustration of a Raleigh dusk skyline with pine silhouettes, seen through an elegant suite window (original artwork, not a hotel brand photo). Editorial mood art for Raleigh luxury stays. Original Noravelle artwork, not a hotel property photo.",
+      "credit_pages": [
+        "hotels/raleigh/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/raleigh-longleaf.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: mid century breeze block pattern with amber lounge glow (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/raleigh/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/raleigh-stateview.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: modern lakeside suite glow over calm blue water (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/raleigh/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/raleigh-umstead.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: lakefront pines with soft spa lantern glow (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/raleigh/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/san-antonio-hero.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle illustration of a San Antonio River Walk dusk scene with lantern glow, seen through an elegant suite window (original artwork, not a hotel brand photo). Editorial mood art for San Antonio luxury stays. Original Noravelle artwork, not a hotel property photo.",
+      "credit_pages": [
+        "hotels/san-antonio/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/san-antonio-hotel-contessa.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: riverfront balcony dusk with warm lantern light (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/san-antonio/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/san-antonio-hotel-emma.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: warm industrial loft arches with amber glow (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/san-antonio/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/san-antonio-hotel-valencia.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: Mediterranean courtyard arches with lantern glow (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/san-antonio/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/san-antonio-mokara.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: dusk rooftop pool with cool teal water (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/san-antonio/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/san-antonio-st-anthony.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: grand historic lobby chandelier glow with columns (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/san-antonio/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/savannah-andaz.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art of Ellis Square lantern evening. Illustrative mood art, not a photo of the hotel named beside it.",
+      "credit_pages": [
+        "hotels/savannah/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/savannah-brice.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art of courtyard garden evening. Illustrative mood art, not a photo of the hotel named beside it.",
+      "credit_pages": [
+        "hotels/savannah/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/savannah-drayton.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art of rooftop dusk over Historic District rooftops. Illustrative mood art, not a photo of the hotel named beside it.",
+      "credit_pages": [
+        "hotels/savannah/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/savannah-hero.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle illustration of a Savannah Historic District evening square with Spanish moss and warm lantern glow (original artwork, not a hotel brand photo). Editorial mood art for Savannah luxury stays. Original Noravelle artwork, not a hotel property photo.",
+      "credit_pages": [
+        "hotels/savannah/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/savannah-perry-lane.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art of Historic District dusk. Illustrative mood art, not a photo of the hotel named beside it.",
+      "credit_pages": [
+        "hotels/savannah/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/savannah-thompson.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art of riverfront evening calm. Illustrative mood art, not a photo of the hotel named beside it.",
+      "credit_pages": [
+        "hotels/savannah/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/tampa-edition.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: modern rooftop terrace dusk with teal pool shimmer (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/tampa/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/tampa-epicurean.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: warm culinary pantry shelves with amber glow (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/tampa/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/tampa-haya.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: Spanish-revival courtyard arches with lantern glow (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/tampa/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/tampa-hero.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle illustration of a Tampa Bay dusk waterfront skyline with palm silhouettes, seen through an elegant suite window (original artwork, not a hotel brand photo). Editorial mood art for Tampa luxury stays. Original Noravelle artwork, not a hotel property photo.",
+      "credit_pages": [
+        "hotels/tampa/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/tampa-jw-marriott.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: resort-style pool cabanas under a warm bay sky (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/tampa/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    },
+    {
+      "path": "images/hotels/tampa-le-meridien.jpg",
+      "status": "HOLD",
+      "licence": null,
+      "credit": "Original Noravelle mood art: historic courthouse lobby columns with chandelier glow (editorial illustration, not a hotel brand photo).",
+      "credit_pages": [
+        "hotels/tampa/index.html"
+      ],
+      "synthetic": null,
+      "hold_reason": "No documented licence, rights grant, creator contract, or embedded copyright metadata is in the repo. Credit text already on the pages is copied here and is not treated as a licence. The licence was not guessed."
+    }
+  ]
+}

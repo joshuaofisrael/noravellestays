@@ -46,6 +46,10 @@ Open `http://127.0.0.1:8080/`.
 - No false Expedia / OTA undercut claims
 - Independent editorial picks — not “official partners”
 
+## Content review
+
+GitHub Actions runs a legal hold check on every pull request and on every push to main. The Pages job waits for that check. Pages under drafts are not part of the site build. Operator notes sit in the content review folder.
+
 ## SEO
 
 - Organization + WebSite on homepage; Article / BreadcrumbList on guides, hotel pages, day plans

@@ -1,0 +1,83 @@
+# Legal hold gate. The pages job needs legal-gate, so a failing check does not
+# upload a Pages artifact and does not call deploy-pages.
+# GitHub's older "deploy from branch" publisher does not wait on this workflow.
+# content-review/PUBLISHING.md records which publisher is actually in force.
+name: Legal hold
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: legal-hold-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  legal-gate:
+    name: legal-gate
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Hold test and clean page
+        run: python3 -m unittest -v tests/test_legal_gate.py
+
+      - name: Gate the site
+        run: python3 scripts/legal_gate.py --ci
+
+  pages:
+    name: pages
+    needs: legal-gate
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      - name: Fail if held drafts were published
+        run: |
+          if [ -e _site/drafts ] || find _site -type d -name drafts | grep -q .; then
+            echo "drafts directory is in the Pages output"
+            exit 1
+          fi
+          if find _site -type f -name '*.html' -print0 | xargs -0 grep -l 'Test Hotel Example' | grep -q .; then
+            echo "hold test page leaked into the Pages output"
+            exit 1
+          fi
+          test -f _site/index.html
+          test -f _site/CNAME
+          test ! -e _site/content-review
+          test ! -e _site/scripts
+          test ! -e _site/tests
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

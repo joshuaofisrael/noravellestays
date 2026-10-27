@@ -1,0 +1,5 @@
+{
+  "site": "noravellestays.com",
+  "note": "Repo paths that must not be published. A published HTML file that matches fails the gate. The baseline allowlist does not override this list.",
+  "paths": []
+}

@@ -1,0 +1,5 @@
+{
+  "site": "noravellestays.com",
+  "note": "Publishing a HOLD_REVIEW page requires an entry whose path and sha256 match the file exactly and whose approver is Joshua. Automated runs must not add entries.",
+  "approvals": []
+}
