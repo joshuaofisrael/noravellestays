@@ -14,7 +14,7 @@
   <url><loc>https://noravellestays.com/destinations/us/</loc><lastmod>2026-10-24</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://noravellestays.com/destinations/us/austin/</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://noravellestays.com/destinations/us/charleston/</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://noravellestays.com/destinations/us/denver/</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://noravellestays.com/destinations/us/denver/</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://noravellestays.com/destinations/us/tampa/</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://noravellestays.com/destinations/us/nashville/</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://noravellestays.com/destinations/us/jacksonville/</loc><lastmod>2026-10-23</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -24,7 +24,7 @@
   <url><loc>https://noravellestays.com/flights/nyc-to-nashville/</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://noravellestays.com/flights/to/austin/</loc><lastmod>2026-10-24</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://noravellestays.com/flights/to/charleston/</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://noravellestays.com/flights/to/denver/</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://noravellestays.com/flights/to/denver/</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://noravellestays.com/flights/to/miami/</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://noravellestays.com/flights/to/nashville/</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://noravellestays.com/flights/to/new-orleans/</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -34,7 +34,7 @@
   <url><loc>https://noravellestays.com/guides/new-york-vs-miami-luxury-hotels/</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/guides/austin-weekend-trip/</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/guides/charleston-weekend-trip/</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://noravellestays.com/guides/denver-weekend-trip/</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://noravellestays.com/guides/denver-weekend-trip/</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/guides/nashville-weekend-trip/</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/guides/savannah-weekend-trip/</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/guides/where-to-stay-in-austin/</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -46,7 +46,7 @@
   <url><loc>https://noravellestays.com/hotels/austin/</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/hotels/charleston/</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/hotels/columbus/</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://noravellestays.com/hotels/denver/</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://noravellestays.com/hotels/denver/</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/hotels/jacksonville/</loc><lastmod>2026-10-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/hotels/kansas-city/</loc><lastmod>2026-10-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/hotels/miami/</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -66,6 +66,7 @@
   <url><loc>https://noravellestays.com/terms/</loc><lastmod>2026-10-26</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://noravellestays.com/travel/</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/travel/christmas-travel-2026/</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://noravellestays.com/travel/epic-pass-deadlines-2026/</loc><lastmod>2026-10-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/travel/mlk-weekend-2027/</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/travel/ryder-cup-2027-adare-manor/</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://noravellestays.com/travel/spring-break-2027/</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>

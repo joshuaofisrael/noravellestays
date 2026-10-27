@@ -68,6 +68,7 @@ Every URL path for the static site (`noravellestays.com`):
 - `/terms/`
 - `/travel/`
 - `/travel/christmas-travel-2026/`
+- `/travel/epic-pass-deadlines-2026/`
 - `/travel/mlk-weekend-2027/`
 - `/travel/ryder-cup-2027-adare-manor/`
 - `/travel/spring-break-2027/`
