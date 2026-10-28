@@ -67,6 +67,7 @@ Every URL path for the static site (`noravellestays.com`):
 - `/resources/us-luxury-hotel-trends/`
 - `/terms/`
 - `/travel/`
+- `/travel-tuesday-2026/`
 - `/travel/christmas-travel-2026/`
 - `/travel/rockefeller-tree-lighting-2026/`
 - `/travel/epic-pass-deadlines-2026/`
@@ -90,7 +91,7 @@ Every URL path for the static site (`noravellestays.com`):
 - `/ops/SEO_PUSH_NOTES.md`
 - `/ops/REVENUE_GATE.md`
 
-**Total HTML routes:** 70
+**Total HTML routes:** 71
 
 **Brand:** Noravelle Stays · Contact subject `[Contact: Noravelle Stays]`
 

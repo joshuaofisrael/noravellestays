@@ -929,3 +929,22 @@ textarea { min-height: 140px; resize: vertical; }
 @media (prefers-reduced-motion: reduce) {
   #mtm-consent { transition: none; }
 }
+
+.fare-tracker {
+  margin: 1rem 0 1.25rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: #fff;
+}
+.fare-tracker .form-grid {
+  max-width: none;
+  grid-template-columns: 1fr 1fr;
+}
+.fare-tracker .span-2 { grid-column: 1 / -1; }
+.fare-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 0.9rem; }
+.fare-table-wrap { overflow-x: auto; }
+@media (max-width: 700px) {
+  .fare-tracker .form-grid { grid-template-columns: 1fr; }
+  .fare-tracker .span-2 { grid-column: auto; }
+}
