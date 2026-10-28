@@ -19,6 +19,12 @@
 - [Savannah hotels](https://noravellestays.com/hotels/savannah/): Historic District squares, riverfront hotels, and calmer South Historic edges, with official website links.
 - [Tampa hotels](https://noravellestays.com/hotels/tampa/): Water Street, Hyde Park, Ybor City, and downtown picks, with official website links.
 
+## Airport hotel guides
+
+- [Hotels near Austin Airport](https://noravellestays.com/hotels/near/austin-airport/): Flight night hotels at Austin Bergstrom, including the full service hotel on the airport grounds, with official websites. Updated 28 Oct 2026.
+- [Hotels near Miami Airport](https://noravellestays.com/hotels/near/miami-airport/): The hotel inside the MIA terminal and nearby shuttle hotels, with official websites. Updated 28 Oct 2026.
+- [Hotels near Nashville Airport](https://noravellestays.com/hotels/near/nashville-airport/): Full service hotels near BNA for a flight night, with official websites. Updated 28 Oct 2026.
+
 ## Destination guides
 
 - [Destinations](https://noravellestays.com/destinations/): Hub for luxury and boutique US stay destinations, with links to official hotel sites.
