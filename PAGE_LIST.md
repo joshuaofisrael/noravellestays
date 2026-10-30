@@ -49,8 +49,10 @@ Every URL path for the static site (`noravellestays.com`):
 - `/hotels/charleston/`
 - `/hotels/columbus/`
 - `/hotels/denver/`
+- `/hotels/beverly-hills/`
 - `/hotels/jacksonville/`
 - `/hotels/kansas-city/`
+- `/hotels/los-angeles/`
 - `/hotels/miami/`
 - `/hotels/nashville/`
 - `/hotels/near/austin-airport/`
@@ -74,7 +76,9 @@ Every URL path for the static site (`noravellestays.com`):
 - `/travel/mlk-weekend-2027/`
 - `/travel/ryder-cup-2027-adare-manor/`
 - `/travel/spring-break-2027/`
+- `/super-bowl-lxi-2027-hotels/`
 - `/travel/thanksgiving-2026/`
+- `/travel/valentines-weekend-los-angeles-2027/`
 - `/travel/winter-classic-2027-salt-lake-city/`
 
 ## Assets / meta
@@ -91,7 +95,7 @@ Every URL path for the static site (`noravellestays.com`):
 - `/ops/SEO_PUSH_NOTES.md`
 - `/ops/REVENUE_GATE.md`
 
-**Total HTML routes:** 71
+**Total HTML routes:** 76
 
 **Brand:** Noravelle Stays · Contact subject `[Contact: Noravelle Stays]`
 

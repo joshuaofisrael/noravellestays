@@ -268,6 +268,10 @@ class LegalGateTests(unittest.TestCase):
         self.assertNotIn("images/hotels/kansas-city-loews.jpg", paths)
         for item in manifest["images"]:
             self.assertTrue(legal_gate.licence_publishes(item), item["path"])
+            if item.get("synthetic") is True:
+                self.assertIn("illustrative", item["credit"].lower())
+                self.assertTrue(item["source_page_url"].startswith("https://noravellestays.com/"))
+                continue
             self.assertTrue(item["source_page_url"].startswith("https://commons.wikimedia.org/wiki/File:"))
             self.assertEqual(item["retrieved"], "2026-10-27")
             self.assertIs(item["synthetic"], False)

@@ -340,6 +340,22 @@
       "synthetic": false,
       "changes": "Resized to a maximum width of 1280 pixels.",
       "attribution_required": true
+    },
+    {
+      "path": "images/travel/super-bowl-lxi-la-evening.jpg",
+      "status": "documented",
+      "licence": "Original image created for Noravelle Stays",
+      "licence_url": "https://noravellestays.com/super-bowl-lxi-2027-hotels/",
+      "source_page_url": "https://noravellestays.com/super-bowl-lxi-2027-hotels/",
+      "author": "Noravelle Stays",
+      "retrieved": "2026-10-30",
+      "credit": "AI generated illustrative coastal evening. Not a named hotel, not SoFi Stadium, and not an NFL mark.",
+      "credit_pages": [
+        "super-bowl-lxi-2027-hotels/index.html"
+      ],
+      "synthetic": true,
+      "changes": "Created for this page.",
+      "attribution_required": false
     }
   ]
 }

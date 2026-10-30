@@ -18,6 +18,8 @@
 - [San Antonio hotels](https://noravellestays.com/hotels/san-antonio/): Best hotels in San Antonio for 2026, with the River Walk, the Pearl District, and King William, and nine official website links. Updated 24 Oct 2026.
 - [Savannah hotels](https://noravellestays.com/hotels/savannah/): Historic District squares, riverfront hotels, and calmer South Historic edges, with official website links.
 - [Tampa hotels](https://noravellestays.com/hotels/tampa/): Water Street, Hyde Park, Ybor City, and downtown picks, with official website links.
+- [Los Angeles hotels](https://noravellestays.com/hotels/los-angeles/): Santa Monica, Beverly Hills, downtown, and an LAX limit, with official websites. Super Bowl package prices stay on the Super Bowl guide. Updated 30 Oct 2026.
+- [Beverly Hills hotels](https://noravellestays.com/hotels/beverly-hills/): Beverly Hills Marriott, Sofitel Los Angeles at Beverly Hills, and SLS Beverly Hills, with On Location prices as listed on 30 Oct 2026.
 
 ## Airport hotel guides
 
@@ -63,7 +65,9 @@
 
 ## Holiday and event travel
 
-- [Holiday and event travel](https://noravellestays.com/travel/): Dated guides for Thanksgiving 2026, Travel Tuesday 2026, Christmas and New Year 2026 to 2027, the Rockefeller Center tree lighting, the 2027 Winter Classic, MLK weekend 2027, spring break 2027, the Ryder Cup at Adare Manor, and ski pass deadlines for 2026 to 2027. No invented rates.
+- [Holiday and event travel](https://noravellestays.com/travel/): Dated guides for Thanksgiving 2026, Travel Tuesday 2026, Christmas and New Year 2026 to 2027, the Rockefeller Center tree lighting, the 2027 Winter Classic, MLK weekend 2027, spring break 2027, the Ryder Cup at Adare Manor, ski pass deadlines for 2026 to 2027, and Super Bowl LXI hotels in Los Angeles. No invented rates.
+- [Super Bowl LXI 2027 hotels](https://noravellestays.com/super-bowl-lxi-2027-hotels/): Sunday 14 February 2027 at SoFi Stadium in Inglewood. Hotels by area, free flow and estimated drive times, On Location hotel prices as listed on 30 Oct 2026, and NFL Ticket Exchange status. Kickoff time is not in the event schema because SoFi Stadium still said Time TBA.
+- [Super Bowl Valentine's weekend in Los Angeles](https://noravellestays.com/travel/valentines-weekend-los-angeles-2027/): A couples shape for 12 to 15 February 2027. Hotel prices stay on the Super Bowl guide.
 - [Travel Tuesday 2026](https://noravellestays.com/travel-tuesday-2026/): Tuesday 1 December 2026. Flight and hotel offers are added as they are announced. None are confirmed yet. Includes a fare baseline checklist and a browser tracker with no sample prices. Updated 28 Oct 2026.
 - [Best days to fly Thanksgiving 2026](https://noravellestays.com/travel/thanksgiving-2026/): Expected peak days for flying and driving, book by guidance, and luxury hotel angles in cities the site covers. Last updated 27 Oct 2026.
 - [Christmas travel 2026](https://noravellestays.com/travel/christmas-travel-2026/): Christmas Day and New Year's Day timing, festive stays, New Year's Eve neighborhood ideas, and a link to the Winter Classic guide.
