@@ -299,9 +299,9 @@
       "licence": "CC0 1.0",
       "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "source_page_url": "https://commons.wikimedia.org/wiki/File:San_Antonio_River_Walk_at_night.jpg",
-      "author": "Mikael Häggström",
+      "author": "Mikael H\u00e4ggstr\u00f6m",
       "retrieved": "2026-10-27",
-      "credit": "The San Antonio River Walk at night. This photograph shows the river walk, not a hotel. Photograph by Mikael Häggström, CC0 1.0, via Wikimedia Commons. Resized from the original. Retrieved 27 October 2026.",
+      "credit": "The San Antonio River Walk at night. This photograph shows the river walk, not a hotel. Photograph by Mikael H\u00e4ggstr\u00f6m, CC0 1.0, via Wikimedia Commons. Resized from the original. Retrieved 27 October 2026.",
       "credit_pages": [
         "hotels/san-antonio/index.html"
       ],
@@ -331,9 +331,9 @@
       "licence": "CC BY-SA 4.0",
       "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "source_page_url": "https://commons.wikimedia.org/wiki/File:Downtown_Tampa,_Florida.jpg",
-      "author": "Clément Bardot",
+      "author": "Cl\u00e9ment Bardot",
       "retrieved": "2026-10-27",
-      "credit": "Downtown Tampa, Florida. This photograph shows the city skyline, not a hotel. Photograph by Clément Bardot, CC BY-SA 4.0, via Wikimedia Commons. Resized from the original. Retrieved 27 October 2026.",
+      "credit": "Downtown Tampa, Florida. This photograph shows the city skyline, not a hotel. Photograph by Cl\u00e9ment Bardot, CC BY-SA 4.0, via Wikimedia Commons. Resized from the original. Retrieved 27 October 2026.",
       "credit_pages": [
         "hotels/tampa/index.html"
       ],
@@ -355,6 +355,38 @@
       ],
       "synthetic": true,
       "changes": "Created for this page.",
+      "attribution_required": false
+    },
+    {
+      "path": "assets/img/ai-hotel-resort-fee-desk.webp",
+      "status": "documented",
+      "licence": "Original image created for Noravelle Stays",
+      "licence_url": "https://noravellestays.com/guides/what-are-hotel-resort-fees/",
+      "source_page_url": "https://noravellestays.com/guides/what-are-hotel-resort-fees/",
+      "author": "Noravelle Stays",
+      "retrieved": "2026-11-05",
+      "credit": "AI generated illustrative image of a guest at a hotel front desk. Not a photograph of a real booking or a named hotel.",
+      "credit_pages": [
+        "guides/what-are-hotel-resort-fees/index.html"
+      ],
+      "synthetic": true,
+      "changes": "Created for this page; saved as WebP at 1280x720.",
+      "attribution_required": false
+    },
+    {
+      "path": "assets/img/ai-boutique-hotel-courtyard.webp",
+      "status": "documented",
+      "licence": "Original image created for Noravelle Stays",
+      "licence_url": "https://noravellestays.com/guides/boutique-vs-luxury-hotel/",
+      "source_page_url": "https://noravellestays.com/guides/boutique-vs-luxury-hotel/",
+      "author": "Noravelle Stays",
+      "retrieved": "2026-11-05",
+      "credit": "AI generated illustrative boutique hotel courtyard. Not a photograph of a named hotel on this site.",
+      "credit_pages": [
+        "guides/boutique-vs-luxury-hotel/index.html"
+      ],
+      "synthetic": true,
+      "changes": "Created for this page; saved as WebP at 1280x720.",
       "attribution_required": false
     }
   ]

@@ -37,6 +37,8 @@ Every URL path for the static site (`noravellestays.com`):
 - `/guides/charleston-weekend-trip/`
 - `/guides/denver-weekend-trip/`
 - `/guides/how-we-pick-luxury-hotels/`
+- `/guides/boutique-vs-luxury-hotel/`
+- `/guides/what-are-hotel-resort-fees/`
 - `/guides/nashville-weekend-trip/`
 - `/guides/savannah-weekend-trip/`
 - `/guides/where-to-stay-in-austin/`
