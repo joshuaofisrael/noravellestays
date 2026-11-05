@@ -388,6 +388,38 @@
       "synthetic": true,
       "changes": "Created for this page; saved as WebP at 1280x720.",
       "attribution_required": false
+    },
+    {
+      "path": "assets/img/ai-early-checkin-nightstand.webp",
+      "status": "documented",
+      "licence": "Original image created for Noravelle Stays",
+      "licence_url": "https://noravellestays.com/guides/early-check-in-and-late-checkout/",
+      "source_page_url": "https://noravellestays.com/guides/early-check-in-and-late-checkout/",
+      "author": "Noravelle Stays",
+      "retrieved": "2026-11-05",
+      "credit": "AI generated illustrative image created for Noravelle Stays. Not a photograph of a real booking or a named hotel.",
+      "credit_pages": [
+        "guides/early-check-in-and-late-checkout/index.html"
+      ],
+      "synthetic": true,
+      "changes": "Created for this page; saved as WebP at 1280x720.",
+      "attribution_required": false
+    },
+    {
+      "path": "assets/img/ai-hotel-cancellation-desk.webp",
+      "status": "documented",
+      "licence": "Original image created for Noravelle Stays",
+      "licence_url": "https://noravellestays.com/guides/hotel-cancellation-policies/",
+      "source_page_url": "https://noravellestays.com/guides/hotel-cancellation-policies/",
+      "author": "Noravelle Stays",
+      "retrieved": "2026-11-05",
+      "credit": "AI generated illustrative image created for Noravelle Stays. Not a photograph of a real booking or a named hotel.",
+      "credit_pages": [
+        "guides/hotel-cancellation-policies/index.html"
+      ],
+      "synthetic": true,
+      "changes": "Created for this page; saved as WebP at 1280x720.",
+      "attribution_required": false
     }
   ]
 }
