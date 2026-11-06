@@ -2,8 +2,8 @@
 """Reusable 'Best rooms at [Hotel]' page builder for Noravelle Stays.
 
 Each page is a dict with: slug, hotel, city, city_url, official_url, title, description,
-quick (quick answer html), compare (list of rows: name, size, beds, view, notes),
-floors (html), request (list of html items), avoid (list of html items),
+quick, floors (dicts with confirms, recommend, ask html), dest_url, coverage, compare (list of rows: name, size, beds, view, notes),
+request and avoid (lists of dicts with label, confirms, recommend, ask), compare rows end with the official source URL,
 ask (list of html items), faq (list of (q, a) plain text), sources (list of (label, url)),
 checked (date string). Sections render in a fixed order: quick answer, room types compared,
 best floors and views, rooms or stacks to request, rooms to avoid and why, how to ask, sources.
@@ -44,12 +44,26 @@ def jsonld(p, url):
     return json.dumps({"@context": "https://schema.org", "@graph": graph}, indent=2, ensure_ascii=False)
 
 
+def cra(block):
+    """Render the fixed three part structure: Hotel confirms / Our recommendation / Ask the hotel."""
+    out = []
+    for key, label in (("confirms", "Hotel confirms"), ("recommend", "Our recommendation"), ("ask", "Ask the hotel")):
+        if block.get(key):
+            out.append(f'<p class="cra cra-{key}"><strong>{label}:</strong> {block[key]}</p>')
+    return "\n        ".join(out)
+
+
+def cra_items(items):
+    return "\n".join(
+        f'        <div class="cra-item">\n          <h3>{it["label"]}</h3>\n          {cra(it)}\n        </div>' for it in items)
+
+
 def render(p):
     url = f"{SITE}/best-rooms/{p['slug']}/"
     analytics, header, footer = shell()
     e = html.escape
     rows = "\n".join(
-        f"            <tr><th scope=\"row\">{e(r[0])}</th><td>{e(r[1])}</td><td>{e(r[2])}</td><td>{e(r[3])}</td><td>{r[4]}</td></tr>"
+        f"            <tr><th scope=\"row\"><a href=\"{e(r[5])}\" rel=\"noopener noreferrer\" target=\"_blank\">{e(r[0])}</a></th><td>{e(r[1])}</td><td>{e(r[2])}</td><td>{e(r[3])}</td><td>{r[4]}</td></tr>"
         for r in p["compare"])
     li = lambda items: "\n".join(f"          <li>{x}</li>" for x in items)
     faq = "\n".join(f"        <details open>\n          <summary>{e(q)}</summary>\n          <p>{e(a)}</p>\n        </details>" for q, a in p["faq"])
@@ -86,7 +100,7 @@ def render(p):
 
       <section class="content-block" id="quick-answer">
         <h2>Quick answer</h2>
-        {p['quick']}
+        {cra(p['quick'])}
       </section>
 
       <section class="content-block" id="room-types">
@@ -97,27 +111,23 @@ def render(p):
 {rows}
           </tbody>
         </table></div>
-        <p>Sizes, beds and views are as the hotel describes them. "Not stated" means the official page does not say.</p>
+        <p>Sizes, beds and views are as the hotel describes them, with a link to the official page for each row. "Not stated" means the official page does not say. {p.get('coverage', '')}</p>
       </section>
 
       <section class="content-block" id="floors-views">
         <h2>Best floors and views</h2>
-        {p['floors']}
+        {cra(p['floors'])}
       </section>
 
       <section class="content-block" id="request">
         <h2>Rooms and wings to request</h2>
-        <ul>
-{li(p['request'])}
-        </ul>
+{cra_items(p['request'])}
         <p>{p.get('no_numbers', 'The hotel does not publish specific room numbers or stacks, so we do not name any. Ask for the room type and outlook instead.')}</p>
       </section>
 
       <section class="content-block" id="avoid">
         <h2>Rooms to avoid and why</h2>
-        <ul>
-{li(p['avoid'])}
-        </ul>
+{cra_items(p['avoid'])}
       </section>
 
       <section class="content-block" id="how-to-ask">
@@ -140,7 +150,7 @@ def render(p):
         </ul>
       </section>
 
-      <p><a href="/best-rooms/">All best rooms guides</a> · <a href="{p['city_url']}">{e(p['city'])} hotel guide</a> · <a href="/travel/">Trip guides</a></p>
+      <p>Related: <a href="/best-rooms/">all best rooms guides</a> · <a href="{p['city_url']}">{e(p['city'])} hotel guide</a> · <a href="{p['dest_url']}">{e(p['city'])} destination guide</a> · <a href="/guides/how-we-pick-luxury-hotels/">how we research and pick hotels</a></p>
     </div>
   </main>
   {footer}"""
