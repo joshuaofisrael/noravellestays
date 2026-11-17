@@ -16,14 +16,14 @@
     },
     {
       "path": "travel/index.html",
-      "sha256": "87d115f6676cc072c7c81c526bd5ac348770c29861a9292df1bbf0084f08d591",
+      "sha256": "afc6178591220057265095b84838fb7a8826294dcdd7fccda2b64966044e84dc",
       "exemptions": [
         {
           "rule": "4",
           "key": "missing-external-source"
         }
       ],
-      "reason": "This page has a factual claim section and no off site source URL. This Article is the holiday guide index. Its links stay on this site, so the source URL check fails. The page was left as written. Allowlisted for this sha256 only. Not an approval by Joshua. A changed file is checked again. Sha256 refreshed on 16 Nov 2026 after the Epic Pass card was updated to say the 15 November price date has passed. The rule 4 issue is unchanged: this Article is the holiday guide index, and its links are mostly on this site, so the source URL check still fails. Sha256 refreshed again on the evening of 16 Nov 2026 after the hub card was updated to the official 6 December 2026 last day to buy. The rule 4 issue is unchanged."
+      "reason": "This page has a factual claim section and no off site source URL. This Article is the holiday guide index. Its links stay on this site, so the source URL check fails. The page was left as written. Allowlisted for this sha256 only. Not an approval by Joshua. A changed file is checked again. Sha256 refreshed on 16 Nov 2026 after the Epic Pass card was updated to say the 15 November price date has passed. The rule 4 issue is unchanged: this Article is the holiday guide index, and its links are mostly on this site, so the source URL check still fails. Sha256 refreshed again on the evening of 16 Nov 2026 after the hub card was updated to the official 6 December 2026 last day to buy. The rule 4 issue is unchanged. Sha256 refreshed again on the morning of 17 Nov 2026 after the hub card was updated to the adult Epic Pass price of $1,245. The rule 4 issue is unchanged."
     },
     {
       "path": "travel/ryder-cup-2027-adare-manor/index.html",
