@@ -5,14 +5,14 @@
   "pages": [
     {
       "path": "hotels/denver/index.html",
-      "sha256": "67386e3030ad1ce0812834382bf3ac4c41321e75f8bf08e385efaec6b6a670dd",
+      "sha256": "64573c6da2dc54c75127a2aabacbdc5412a794d5dc85200181f33165b07cd450",
       "exemptions": [
         {
           "rule": "6",
           "key": "vote"
         }
       ],
-      "reason": "Election term screen matched vote. Live wording was not changed. The election screen matched vote because the page says an RTD board vote could change evening train frequency. That is not an election guide. The sentence was left as written. Allowlisted for this sha256 only. Not an approval by Joshua. A changed file is checked again. AdSense head snippet on main changed this sha256. The rule 6 vote wording was not changed. Sha256 refreshed on 19 Nov 2026 after sitewide footer and image-policy caption links. The exempted wording was not changed."
+      "reason": "Election term screen matched vote. The CTA placeholder was edited on 20 Nov 2026. The vote sentence was left as written. The election screen matched vote because the page says an RTD board vote could change evening train frequency. That is not an election guide. Allowlisted for this sha256 only. Not an approval by Joshua. A changed file is checked again."
     },
     {
       "path": "travel/index.html",
