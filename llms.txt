@@ -2,6 +2,12 @@
 
 > Noravelle Stays publishes editorial luxury and boutique hotel guides for US cities. Each guide names hotels and links to their official websites. Prices are not invented.
 
+## Best rooms
+
+- [Best rooms](https://noravellestays.com/best-rooms/): Which room to ask for, from each hotel's own room pages.
+- [Bellagio](https://noravellestays.com/best-rooms/bellagio-las-vegas/): Fountain View King faces the fountains. The hotel does not publish a floor chart. Penthouse suites in the Bellagio Tower list Fountain, Strip, or Sunset. Checked 20 Nov 2026. Thumbnail not published yet.
+- [The Venetian](https://noravellestays.com/best-rooms/venetian-las-vegas/): Palazzo Premium King guarantees a Strip or pool view. A Venetian Luxury King does not name a view. South Tower top floor is the only floor the suite pages name. Checked 20 Nov 2026. Thumbnail not published yet.
+
 ## Hotel guides by city
 
 - [Hotel guides](https://noravellestays.com/hotels/): City pages with neighborhood notes and named hotel picks that link to official hotel websites.
@@ -11,12 +17,12 @@
 - [Denver hotels](https://noravellestays.com/hotels/denver/): LoDo, Union Station, Cherry Creek, RiNo, the Golden Triangle, and the Theatre District, with nine official website links. Updated 20 Oct 2026.
 - [Jacksonville hotels](https://noravellestays.com/hotels/jacksonville/): Ponte Vedra Beach, TPC Sawgrass, Atlantic Beach, Amelia Island, downtown, and LaVilla, with official website links. Players homepage rechecked 20 Nov 2026 (9 to 14 March 2027). Hyatt room table still unpublished.
 - [Kansas City hotels](https://noravellestays.com/hotels/kansas-city/): Best hotels in Kansas City for 2026, with the Country Club Plaza, the Crossroads, and Power and Light, and nine official website links. Updated 25 Oct 2026.
-- [Miami hotels](https://noravellestays.com/hotels/miami/): South Beach, Mid Beach, Surfside, Brickell, Coconut Grove, Coral Gables, and Key Biscayne, with official website links.
+- [Miami hotels](https://noravellestays.com/hotels/miami/): South Beach, Mid Beach, Surfside, Brickell, Coconut Grove, Coral Gables, and Key Biscayne, with official website links. Which room to ask for at Faena, The Setai, and Four Seasons Hotel Miami, from each hotel's room pages, checked 21 Nov 2026.
 - [Nashville hotels](https://noravellestays.com/hotels/nashville/): Best hotels in Nashville for 2026, including luxury downtown stays, a boutique hotel near the Gulch, and Germantown as a dinner outing, with 13 official website links. Updated 24 Oct 2026.
 - [New Orleans hotels](https://noravellestays.com/hotels/new-orleans/): Best luxury hotels in New Orleans for 2026, including French Quarter courtyards, the Warehouse District, and the Garden District, with official website links. Updated 23 Oct 2026.
 - [Raleigh hotels](https://noravellestays.com/hotels/raleigh/): Best hotels in Raleigh for 2026, with downtown, Glenwood South, the Warehouse District, North Hills, and a Cary spa, and nine official website links. Updated 25 Oct 2026.
 - [San Antonio hotels](https://noravellestays.com/hotels/san-antonio/): Best hotels in San Antonio for 2026, with the River Walk, the Pearl District, and King William, and nine official website links. Updated 24 Oct 2026.
-- [Savannah hotels](https://noravellestays.com/hotels/savannah/): Historic District squares, riverfront hotels, and calmer South Historic edges, with official website links.
+- [Savannah hotels](https://noravellestays.com/hotels/savannah/): Historic District squares, riverfront hotels, and calmer South Historic edges, with official website links. Parade note updated 21 Nov 2026: the next St. Patrick's Day is Wednesday 17 March 2027. Fee figures remain those read 15 Oct 2026.
 - [Tampa hotels](https://noravellestays.com/hotels/tampa/): Water Street, Hyde Park, Ybor City, and downtown picks, with official website links.
 - [Los Angeles hotels](https://noravellestays.com/hotels/los-angeles/): Santa Monica, Beverly Hills, downtown, and an LAX limit, with official websites. Super Bowl package prices stay on the Super Bowl guide. Updated 30 Oct 2026.
 - [Beverly Hills hotels](https://noravellestays.com/hotels/beverly-hills/): Beverly Hills Marriott, Sofitel Los Angeles at Beverly Hills, and SLS Beverly Hills, with On Location prices as listed on 30 Oct 2026.
@@ -30,7 +36,7 @@
 ## Destination guides
 
 - [Destinations](https://noravellestays.com/destinations/): Hub for luxury and boutique US stay destinations, with links to official hotel sites.
-- [US destinations](https://noravellestays.com/destinations/us/): Index of US city hubs with links to hotels and guides.
+- [US destinations](https://noravellestays.com/destinations/us/): Index of US city hubs with links to hotels and guides. Checked 21 Nov 2026. Los Angeles and Beverly Hills have hotel guides and no hub.
 - [Austin](https://noravellestays.com/destinations/us/austin/): South Congress and downtown Austin links for hotels, guides, and planning.
 - [Charleston](https://noravellestays.com/destinations/us/charleston/): Historic District and Mount Pleasant links for hotels, guides, and planning.
 - [Denver](https://noravellestays.com/destinations/us/denver/): LoDo, Cherry Creek, and RiNo links for hotels and guides.

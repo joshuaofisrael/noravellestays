@@ -421,6 +421,38 @@
       "synthetic": true,
       "changes": "Created for this page; saved as WebP at 1280x720.",
       "attribution_required": false
+    },
+    {
+      "path": "assets/img/vegas-fountain-room-view.webp",
+      "status": "documented",
+      "licence": "Original image created for Noravelle Stays",
+      "licence_url": "https://noravellestays.com/best-rooms/bellagio-las-vegas/",
+      "source_page_url": "https://noravellestays.com/best-rooms/bellagio-las-vegas/",
+      "author": "Noravelle Stays",
+      "retrieved": "2026-11-22",
+      "credit": "AI generated illustrative image created for Noravelle Stays. Not a photograph of a real booking or a named hotel.",
+      "credit_pages": [
+        "best-rooms/bellagio-las-vegas/index.html"
+      ],
+      "synthetic": true,
+      "changes": "Created for this page from the 22 Nov 2026 ChatGPT bank file; saved as WebP at 1280x720.",
+      "attribution_required": false
+    },
+    {
+      "path": "assets/img/vegas-suite-strip-view.webp",
+      "status": "documented",
+      "licence": "Original image created for Noravelle Stays",
+      "licence_url": "https://noravellestays.com/best-rooms/venetian-las-vegas/",
+      "source_page_url": "https://noravellestays.com/best-rooms/venetian-las-vegas/",
+      "author": "Noravelle Stays",
+      "retrieved": "2026-11-22",
+      "credit": "AI generated illustrative image created for Noravelle Stays. Not a photograph of a real booking or a named hotel.",
+      "credit_pages": [
+        "best-rooms/venetian-las-vegas/index.html"
+      ],
+      "synthetic": true,
+      "changes": "Created for this page from the 22 Nov 2026 ChatGPT bank file; saved as WebP at 1280x720.",
+      "attribution_required": false
     }
   ]
 }
